@@ -1,0 +1,182 @@
+# A2A Escalation Router — Dify Workflow DSL
+# Created: 2026-06-05
+# Purpose: Route agent escalations to Cáo when status=BLOCKED
+
+app:
+  name: "A2A Escalation Router"
+  mode: workflow
+  description: "Nhận input từ agent A2A, nếu status=BLOCKED thì route tới Cáo để xử lý"
+
+workflow:
+  graph:
+    nodes:
+      - id: start
+        type: start
+        title: "Start"
+        outputs:
+          agent_name:
+            type: string
+            label: "Agent Name"
+          task_id:
+            type: string
+            label: "Task ID"
+          status:
+            type: string
+            label: "Status (DONE/PARTIAL/BLOCKED/NOT_STARTED)"
+          blocker_description:
+            type: string
+            label: "Blocker Description"
+
+      - id: check_status
+        type: if-else
+        title: "Check if BLOCKED"
+        conditions:
+          - variable: "{{#start.status#}}"
+            operator: equals
+            value: "BLOCKED"
+
+      - id: route_to_cao
+        type: llm
+        title: "Route to Cáo — Log + Notify"
+        model:
+          provider: openai
+          name: gpt-4o-mini
+          mode: chat
+          completion_params:
+            temperature: 0.2
+            max_tokens: 512
+        prompt_template:
+          - role: system
+            text: |
+              Bạn là Cáo — Technical Advisor của hệ thống Tập đoàn Minh Cường.
+              Nhiệm vụ: Nhận escalation từ agent bị BLOCKED, phân tích blocker và đưa ra next_action cụ thể.
+              Quy tắc:
+              - Luôn bắt đầu bằng [CÁO]
+              - Đề xuất next_action rõ ràng: ai làm gì, trong bao lâu
+              - Nếu cần Henry quyết định, ghi rõ "ESCALATE_TO_HENRY"
+              - Format: STATUS / Blocker / Next Action / Deadline
+          - role: user
+            text: |
+              Agent: {{#start.agent_name#}}
+              Task ID: {{#start.task_id#}}
+              Status: {{#start.status#}}
+              Blocker: {{#start.blocker_description#}}
+
+              Hãy phân tích blocker và đưa ra next_action.
+
+      - id: log_escalation
+        type: code
+        title: "Log Escalation to file"
+        language: python3
+        code: |
+          import json
+          from datetime import datetime
+
+          def main(agent_name: str, task_id: str, status: str, blocker_description: str, cao_analysis: str) -> dict:
+              log_entry = {
+                  "timestamp": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+                  "agent_name": agent_name,
+                  "task_id": task_id,
+                  "status": status,
+                  "blocker_description": blocker_description,
+                  "cao_analysis": cao_analysis,
+                  "escalated_to": "cao"
+              }
+              return {
+                  "log_entry": json.dumps(log_entry, ensure_ascii=False),
+                  "escalation_id": f"ESC-{task_id}-{datetime.utcnow().strftime('%H%M%S')}",
+                  "next_action": cao_analysis
+              }
+        inputs:
+          agent_name: "{{#start.agent_name#}}"
+          task_id: "{{#start.task_id#}}"
+          status: "{{#start.status#}}"
+          blocker_description: "{{#start.blocker_description#}}"
+          cao_analysis: "{{#route_to_cao.text#}}"
+
+      - id: handle_non_blocked
+        type: code
+        title: "Handle non-BLOCKED status"
+        language: python3
+        code: |
+          def main(agent_name: str, task_id: str, status: str) -> dict:
+              return {
+                  "log_entry": f"[OK] {agent_name} | {task_id} | {status}",
+                  "escalation_id": "NONE",
+                  "next_action": f"Status {status} — không cần escalate. Task đã được ghi nhận."
+              }
+        inputs:
+          agent_name: "{{#start.agent_name#}}"
+          task_id: "{{#start.task_id#}}"
+          status: "{{#start.status#}}"
+
+      - id: end
+        type: end
+        title: "End"
+        outputs:
+          - variable: "{{#log_escalation.escalation_id#}}"
+            name: escalation_id
+          - variable: "{{#log_escalation.next_action#}}"
+            name: next_action
+          - variable: "{{#log_escalation.log_entry#}}"
+            name: log_entry
+
+    edges:
+      - id: e1
+        source: start
+        target: check_status
+
+      - id: e2
+        source: check_status
+        target: route_to_cao
+        condition: true
+
+      - id: e3
+        source: check_status
+        target: handle_non_blocked
+        condition: false
+
+      - id: e4
+        source: route_to_cao
+        target: log_escalation
+
+      - id: e5
+        source: log_escalation
+        target: end
+
+      - id: e6
+        source: handle_non_blocked
+        target: end
+
+  inputs:
+    agent_name:
+      type: string
+      required: true
+      label: "Tên agent gửi escalation"
+      placeholder: "vd: bong, bun, render, troly"
+    task_id:
+      type: string
+      required: true
+      label: "Task ID"
+      placeholder: "vd: TASK-2026-06-05-001"
+    status:
+      type: string
+      required: true
+      label: "Trạng thái"
+      placeholder: "DONE / PARTIAL / BLOCKED / NOT_STARTED"
+    blocker_description:
+      type: string
+      required: false
+      label: "Mô tả blocker (bắt buộc nếu BLOCKED)"
+      placeholder: "vd: Không kết nối được Dify API, timeout sau 30s"
+
+  outputs:
+    escalation_id:
+      type: string
+      label: "Escalation ID (NONE nếu không cần escalate)"
+    next_action:
+      type: string
+      label: "Hành động tiếp theo do Cáo đề xuất"
+    log_entry:
+      type: string
+      label: "Log entry JSON"
