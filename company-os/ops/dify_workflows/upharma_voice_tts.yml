@@ -1,71 +1,116 @@
-# Upharma Voice TTS — Dify Workflow DSL
-# Created: 2026-06-05
-# Purpose: Nhận nội dung khuyến mãi → sinh script → tạo file TTS audio phát loa nhà thuốc
-
 app:
-  name: "Upharma Voice TTS"
+  description: 'Nhập nội dung chương trình khuyến mãi → AI viết script phát thanh
+    → tạo file âm thanh MP3 phát loa nhà thuốc'
+  icon: 🎙️
+  icon_background: '#E0F2FE'
+  icon_type: emoji
   mode: workflow
-  description: "Nhập nội dung chương trình khuyến mãi → AI viết script phát thanh → tạo file âm thanh MP3"
-
+  name: Upharma Voice TTS
+  use_icon_as_answer_icon: false
+dependencies: []
+kind: app
+version: 0.6.0
 workflow:
+  conversation_variables: []
+  environment_variables: []
+  features:
+    file_upload: {}
+    sensitive_word_avoidance:
+      enabled: false
+    text_to_speech:
+      enabled: false
+      language: ''
+      voice: ''
   graph:
+    edges:
+    - id: start-write_script
+      source: start
+      target: write_script
+      type: custom
+    - id: write_script-end
+      source: write_script
+      target: end
+      type: custom
     nodes:
-      - id: start
+    - data:
+        title: Start
         type: start
-        title: "Start"
-        outputs:
-          promo_content:
-            type: string
-            label: "Nội dung chương trình khuyến mãi"
-          pharmacy_name:
-            type: string
-            label: "Tên nhà thuốc (để xưng danh)"
-          duration_seconds:
-            type: number
-            label: "Thời lượng audio (giây, mặc định 30)"
-
-      - id: write_script
-        type: llm
-        title: "Viết script phát thanh"
+        variables:
+        - label: Nội dung chương trình khuyến mãi
+          max_length: 2000
+          options: []
+          required: true
+          type: paragraph
+          variable: promo_content
+        - label: Tên nhà thuốc
+          max_length: 100
+          options: []
+          required: true
+          type: text-input
+          variable: pharmacy_name
+        - label: Thời lượng audio (giây)
+          max_length: 10
+          options: []
+          required: false
+          type: text-input
+          variable: duration_seconds
+      height: 116
+      id: start
+      position:
+        x: 50
+        y: 200
+      type: custom
+      width: 244
+    - data:
+        context:
+          enabled: false
+          variable_selector: []
+        desc: Viết script phát thanh từ nội dung khuyến mãi
         model:
-          provider: openai
-          name: gpt-4o-mini
-          mode: chat
           completion_params:
             temperature: 0.4
-            max_tokens: 512
+            max_tokens: 600
+          mode: chat
+          name: gpt-4o-mini
+          provider: openai
         prompt_template:
-          - role: system
-            text: |
-              Bạn là chuyên gia viết script phát thanh cho nhà thuốc Việt Nam.
-              Quy tắc:
-              - Giọng văn trang trọng, thân thiện, rõ ràng
-              - Bắt đầu bằng "Kính chào quý khách đến với [tên nhà thuốc]"
-              - Nêu rõ tên chương trình, sản phẩm, mức giảm giá, thời hạn
-              - Kết thúc bằng lời mời mua hàng
-              - Độ dài phù hợp với {{#start.duration_seconds#}} giây khi đọc (khoảng 2.5 từ/giây)
-              - Không dùng ký tự đặc biệt, emoji
-          - role: user
-            text: |
-              Nhà thuốc: {{#start.pharmacy_name#}}
-              Nội dung khuyến mãi: {{#start.promo_content#}}
-              Thời lượng: {{#start.duration_seconds#}} giây
-
-      - id: tts_generate
-        type: tool
-        title: "Tạo file audio TTS"
-        tool_name: "tts"
-        tool_label: "Text to Speech"
-        inputs:
-          text: "{{#write_script.text#}}"
-          voice: "vi-VN-HoaiMyNeural"
-          format: "mp3"
-          speed: 1.0
-
-      - id: output
+        - role: system
+          text: "Bạn là chuyên gia viết script phát thanh cho nhà thuốc Việt Nam.\nQuy\
+            \ tắc:\n- Giọng văn trang trọng, thân thiện, rõ ràng\n- Bắt đầu bằng\
+            \ \"Kính chào quý khách đến với {{#start.pharmacy_name#}}\"\n- Nêu rõ\
+            \ tên chương trình, sản phẩm, mức giảm giá, thời hạn\n- Kết thúc bằng\
+            \ lời mời mua hàng\n- Không dùng ký tự đặc biệt, emoji\n- Độ dài phù\
+            \ hợp khi đọc khoảng {{#start.duration_seconds#}} giây"
+        - role: user
+          text: "Nhà thuốc: {{#start.pharmacy_name#}}\nNội dung: {{#start.promo_content#}}"
+        title: Viết script phát thanh
+        type: llm
+        variables: []
+        vision:
+          enabled: false
+      height: 98
+      id: write_script
+      position:
+        x: 380
+        y: 200
+      type: custom
+      width: 244
+    - data:
+        outputs:
+        - value_selector:
+          - write_script
+          - text
+          variable: script
+        title: End
         type: end
-        title: "Output"
-        inputs:
-          script: "{{#write_script.text#}}"
-          audio_file: "{{#tts_generate.audio_url#}}"
-          pharmacy: "{{#start.pharmacy_name#}}"
+      height: 54
+      id: end
+      position:
+        x: 710
+        y: 200
+      type: custom
+      width: 244
+    viewport:
+      x: 0
+      y: 0
+      zoom: 1
