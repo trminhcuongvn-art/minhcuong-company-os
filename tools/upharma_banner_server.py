@@ -68,6 +68,9 @@ body {{ font-family:'Arial',sans-serif; background:#fff; }}
 def health():
     return jsonify({"status": "ok", "service": "upharma-banner-generator"})
 
+BANNER_OUT_DIR = "/Users/minhcuong/.openclaw/workspace/upharma/banner_output"
+os.makedirs(BANNER_OUT_DIR, exist_ok=True)
+
 @app.route("/banner", methods=["POST"])
 def generate_banner():
     data = request.get_json(force=True)
@@ -84,7 +87,9 @@ def generate_banner():
     with tempfile.NamedTemporaryFile(suffix=".html", delete=False, mode='w', encoding='utf-8') as f:
         f.write(html)
         html_path = f.name
-    out_path = html_path.replace(".html", ".png")
+    import time
+    filename = f"banner_{int(time.time())}.png"
+    out_path = os.path.join(BANNER_OUT_DIR, filename)
     try:
         subprocess.run([
             CHROME, "--headless", "--disable-gpu", "--no-sandbox",
@@ -92,11 +97,29 @@ def generate_banner():
             f"--window-size={width},{height}",
             f"file://{html_path}"
         ], capture_output=True, timeout=15)
-        return send_file(out_path, mimetype="image/png", download_name="upharma_banner.png")
-    finally:
         os.unlink(html_path)
-        if os.path.exists(out_path):
-            os.unlink(out_path)
+        size = os.path.getsize(out_path)
+        # Return JSON with file path + base64
+        with open(out_path, 'rb') as f:
+            b64 = base64.b64encode(f.read()).decode()
+        return jsonify({
+            "status": "ok",
+            "file_path": out_path,
+            "filename": filename,
+            "size_bytes": size,
+            "base64_preview": b64[:100] + "...",
+            "download_url": f"http://localhost:8766/download/{filename}"
+        })
+    except Exception as e:
+        if os.path.exists(html_path): os.unlink(html_path)
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/download/<filename>", methods=["GET"])
+def download_banner(filename):
+    path = os.path.join(BANNER_OUT_DIR, filename)
+    if not os.path.exists(path):
+        return jsonify({"error": "not found"}), 404
+    return send_file(path, mimetype="image/png", download_name=filename)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8766, debug=False)
