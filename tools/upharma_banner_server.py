@@ -114,6 +114,50 @@ def generate_banner():
         if os.path.exists(html_path): os.unlink(html_path)
         return jsonify({"error": str(e)}), 500
 
+FLYER_TEMPLATE = open('/Users/minhcuong/.openclaw/workspace/upharma/banner_templates/upharma_flyer_a4_template.html', 'r', encoding='utf-8').read()
+
+@app.route("/flyer", methods=["POST"])
+def generate_flyer():
+    """Generate A4 tờ rơi (595x842) — POST JSON same as /banner + optional products list"""
+    import time, re
+    data = request.get_json(force=True)
+    html = FLYER_TEMPLATE
+    # Replace dynamic fields
+    replacements = {
+        'GIẢM 20%': data.get('discount', 'GIẢM 20%'),
+        'Tất cả Vitamin &amp;': data.get('title_line1', 'Tất cả Vitamin &amp;'),
+        'Thực phẩm chức\n         năng': data.get('title_line2', 'Thực phẩm chức\n         năng'),
+        'Áp dụng cho toàn bộ sản phẩm vitamin nhóm B, C, D, E': data.get('detail_line1', 'Áp dụng cho toàn bộ sản phẩm vitamin nhóm B, C, D, E'),
+        '01/06 – 30/06/2026': data.get('validity', '01/06 – 30/06/2026'),
+        'Upharma Quận 1': data.get('pharmacy', 'Upharma Quận 1'),
+    }
+    for old, new in replacements.items():
+        html = html.replace(old, new)
+    
+    with tempfile.NamedTemporaryFile(suffix='.html', delete=False, mode='w', encoding='utf-8') as f:
+        f.write(html)
+        html_path = f.name
+    filename = f'flyer_{int(time.time())}.png'
+    out_path = os.path.join(BANNER_OUT_DIR, filename)
+    try:
+        subprocess.run([
+            CHROME, '--headless', '--disable-gpu', '--no-sandbox',
+            f'--screenshot={out_path}',
+            '--window-size=595,842',
+            f'file://{html_path}'
+        ], capture_output=True, timeout=15)
+        os.unlink(html_path)
+        size = os.path.getsize(out_path)
+        return jsonify({
+            'status': 'ok', 'type': 'flyer_a4',
+            'file_path': out_path, 'filename': filename,
+            'size_bytes': size,
+            'download_url': f'http://localhost:8766/download/{filename}'
+        })
+    except Exception as e:
+        if os.path.exists(html_path): os.unlink(html_path)
+        return jsonify({'error': str(e)}), 500
+
 @app.route("/download/<filename>", methods=["GET"])
 def download_banner(filename):
     path = os.path.join(BANNER_OUT_DIR, filename)
