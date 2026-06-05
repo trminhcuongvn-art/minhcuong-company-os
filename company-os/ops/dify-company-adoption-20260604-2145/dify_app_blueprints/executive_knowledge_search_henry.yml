@@ -1,0 +1,30 @@
+app:
+  name: Executive Knowledge Search Henry
+  mode: chatbot
+  description: Answer executive status questions from curated Company OS KB with evidence.
+  version: 0.1.0
+inputs:
+  - name: request
+    type: paragraph
+outputs:
+  - name: answer
+    format: markdown
+knowledge:
+  required: true
+guardrails:
+  - evidence_path_required_for_DONE_or_PARTIAL
+  - no_production_db_write_without_approval
+  - no_secret_exposure
+workflow:
+  nodes:
+    - id: intake
+      type: start
+    - id: retrieve_context
+      type: knowledge_retrieval
+    - id: reason_and_plan
+      type: llm
+    - id: evidence_gate
+      type: code_or_template
+    - id: final_answer
+      type: end
+rollback: delete_imported_app_and_related_dataset

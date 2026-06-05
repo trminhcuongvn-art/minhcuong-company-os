@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "workflow_count": 3,
+  "checks": [
+    {
+      "path": "company-os/ops/dify-implementation-plan-20260604-2124/README.md",
+      "exists": true,
+      "size": 2321
+    },
+    {
+      "path": "company-os/ops/dify-implementation-plan-20260604-2124/workflows.json",
+      "exists": true,
+      "size": 1539
+    },
+    {
+      "path": "company-os/ops/apply-dashboard-20260604-2015/README.md",
+      "exists": true,
+      "size": 2367
+    },
+    {
+      "path": "company-os/ops/antigravity-sync-bridge-20260604-2031/antigravity_sync_bridge.py",
+      "exists": true,
+      "size": 5282
+    }
+  ]
+}

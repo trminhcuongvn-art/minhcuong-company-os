@@ -1,0 +1,105 @@
+{
+  "generated_at_ict": "2026-06-04 20:15 ICT",
+  "scope": "Dify/Company OS apply dashboard - read-only audit + practical application artifact",
+  "risk_check": {
+    "cost_license": false,
+    "production_write_delete": false,
+    "hard_to_reverse": false,
+    "public_internal_data": false
+  },
+  "applied_status": {
+    "company_os_no_api_runbook": "APPLIED as fallback operating path while Dify API/provider blocked",
+    "cadence": "APPLIED via ops cadence job spec + 30m delta/WIP control artifacts",
+    "evidence_gate": "APPLIED via docs + evidence_gate JSON scans",
+    "upharma_trial_outputs": "APPLIED read-only review/SQLPage/CRM import audit artifacts; no production DB write",
+    "bun_trial_outputs": "APPLIED as Company OS evidence-managed trial output for Epoch playable artifacts",
+    "dify_runtime": "INSTALLED but API/provider credential still blocked; Company OS is usable through no-API artifacts until credential initialized"
+  },
+  "evidence": [
+    {
+      "area": "Company OS foundation",
+      "path": "company-os/README.md",
+      "exists": true,
+      "size_bytes": 520,
+      "md5": "9c2df0c361c95152b25adacbb686e257"
+    },
+    {
+      "area": "No-API runbook",
+      "path": "company-os/ops/COMPANY_OS_NO_API_RUNBOOK_20260604_1642.md",
+      "exists": true,
+      "size_bytes": 1246,
+      "md5": "56c190b5ff14b3ac1b970b1d16d7c910"
+    },
+    {
+      "area": "Cadence job spec",
+      "path": "company-os/ops/COMPANY_OPS_CADENCE_JOB_SPEC_20260604_1913.md",
+      "exists": true,
+      "size_bytes": 1085,
+      "md5": "09254c2891b1de79839e98a55cdf30e4"
+    },
+    {
+      "area": "Evidence gate docs",
+      "path": "company-os/docs/EVIDENCE_GATE.md",
+      "exists": true,
+      "size_bytes": 430,
+      "md5": "395260f655b1b974b1d1a84a6cadc10b"
+    },
+    {
+      "area": "Evidence gate JSON latest",
+      "path": "company-os/ops/evidence_gate_20260604_162235.json",
+      "exists": true,
+      "size_bytes": 532,
+      "md5": "3d241c408897b8c23913e65984df6adf"
+    },
+    {
+      "area": "Upharma read-only review trial",
+      "path": "company-os/ops/p0_results/p0_upharma_readonly_review_20260604_1624.json",
+      "exists": true,
+      "size_bytes": 623,
+      "md5": "c64ce9e420491d6cc5dbe7390f770d72"
+    },
+    {
+      "area": "Company knowledge QA trial",
+      "path": "company-os/ops/p0_results/p0_company_knowledge_qa_20260604_1624.json",
+      "exists": true,
+      "size_bytes": 544,
+      "md5": "b51b9946badb6ce3204277d5bcb6e600"
+    },
+    {
+      "area": "A2A task lookup trial",
+      "path": "company-os/ops/p0_results/p0_a2a_task_lookup_20260604_1624.json",
+      "exists": true,
+      "size_bytes": 464,
+      "md5": "610fc53b95bc9e42acd812ff922ccf24"
+    },
+    {
+      "area": "Dify usable decision",
+      "path": "company-os/ops/COMPANY_OS_USABLE_DECISION_20260604_1828.md",
+      "exists": true,
+      "size_bytes": 1459,
+      "md5": "f56b2b3d995c8d7bd6c1cd85aefd1350"
+    },
+    {
+      "area": "Upharma SQLPage POC",
+      "path": "upharma/sqlpage-poc/evidence_inventory_value.html",
+      "exists": true,
+      "size_bytes": 1523,
+      "md5": "9c553a540014381022bdfb19ce26f7e1"
+    },
+    {
+      "area": "Upharma CRM import audit",
+      "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/drug_db_crm_import_ready_audit_20260604_2000.md",
+      "exists": true,
+      "size_bytes": 2008,
+      "md5": "c1c163e37f62b2e592d95b7edd63c110"
+    },
+    {
+      "area": "Bún Epoch playable report",
+      "path": "bun/epoch-ascendant-mvp/PLAYABLE_TRIAL_REPORT_20260604.md",
+      "exists": true,
+      "size_bytes": 921,
+      "md5": "d3698295229f9e4b54daa27c82cc288c"
+    }
+  ],
+  "rollback": "rm -rf /Users/minhcuong/.openclaw/workspace/company-os/ops/apply-dashboard-20260604-2015"
+}

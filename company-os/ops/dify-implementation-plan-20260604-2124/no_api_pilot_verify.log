@@ -1,0 +1,38 @@
+OK	520	company-os/README.md
+OK	1246	company-os/ops/COMPANY_OS_NO_API_RUNBOOK_20260604_1642.md
+OK	1085	company-os/ops/COMPANY_OPS_CADENCE_JOB_SPEC_20260604_1913.md
+OK	430	company-os/docs/EVIDENCE_GATE.md
+OK	532	company-os/ops/evidence_gate_20260604_162235.json
+OK	623	company-os/ops/p0_results/p0_upharma_readonly_review_20260604_1624.json
+OK	544	company-os/ops/p0_results/p0_company_knowledge_qa_20260604_1624.json
+OK	464	company-os/ops/p0_results/p0_a2a_task_lookup_20260604_1624.json
+OK	1459	company-os/ops/COMPANY_OS_USABLE_DECISION_20260604_1828.md
+OK	1523	upharma/sqlpage-poc/evidence_inventory_value.html
+OK	2008	upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/drug_db_crm_import_ready_audit_20260604_2000.md
+OK	921	bun/epoch-ascendant-mvp/PLAYABLE_TRIAL_REPORT_20260604.md
+ROLLBACK: rm -rf /Users/minhcuong/.openclaw/workspace/company-os/ops/apply-dashboard-20260604-2015
+{
+  "ts": "2026-06-04T21:29:21+07:00",
+  "bus": "/Users/minhcuong/.openclaw/workspace/memory/agent_task_bus.jsonl",
+  "inbox": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox",
+  "dry_run": true,
+  "fixture": false,
+  "candidates": 2,
+  "mirrored": [],
+  "skipped": [
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-UNBLOCK-20260604-0712",
+      "reason": "already_mirrored",
+      "path": {
+        "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_a2a_14e4b58a_20260604_071200.json",
+        "at": "2026-06-04T20:33:13+07:00",
+        "canonical_task_id": null
+      }
+    },
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-COMPANY-APPLY-20260604-2015",
+      "reason": "already_mirrored",
+      "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_ce823e8b_20260604_202912.json"
+    }
+  ]
+}

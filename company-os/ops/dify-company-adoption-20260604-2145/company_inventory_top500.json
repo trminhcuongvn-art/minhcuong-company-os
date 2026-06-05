@@ -1,0 +1,2502 @@
+[
+  {
+    "path": "memory/areas/tech-ops/2026-06-03.md",
+    "size": 128542,
+    "mtime": 1780584273.0494678
+  },
+  {
+    "path": "memory/areas/tech-ops/2026-06-03.md",
+    "size": 128542,
+    "mtime": 1780584273.0494678
+  },
+  {
+    "path": "company-os/ops/dify-implementation-plan-20260604-2124/checkpoint_2143_verify.log",
+    "size": 829,
+    "mtime": 1780584273.0429385
+  },
+  {
+    "path": "company-os/ops/dify-implementation-plan-20260604-2124/native_auth_audit.md",
+    "size": 1540,
+    "mtime": 1780584273.012794
+  },
+  {
+    "path": "memory/areas/tech-ops/2026-06-04.md",
+    "size": 118140,
+    "mtime": 1780583930.3782005
+  },
+  {
+    "path": "memory/areas/tech-ops/2026-06-04.md",
+    "size": 118140,
+    "mtime": 1780583930.3782005
+  },
+  {
+    "path": "upharma/A2A_STATUS.md",
+    "size": 29180,
+    "mtime": 1780583511.4886026
+  },
+  {
+    "path": "memory/areas/upharma-ops/2026-06-04.md",
+    "size": 10685,
+    "mtime": 1780583511.4870205
+  },
+  {
+    "path": "memory/areas/upharma-ops/2026-06-04.md",
+    "size": 10685,
+    "mtime": 1780583511.4870205
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/human_review_batch3_final_20260604_2130.md",
+    "size": 835,
+    "mtime": 1780583511.4827564
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/human_review_batch3_final_20260604_2130.csv",
+    "size": 5994,
+    "mtime": 1780583511.4826586
+  },
+  {
+    "path": "company-os/ops/dify-implementation-plan-20260604-2124/no_api_pilot_verify.log",
+    "size": 1727,
+    "mtime": 1780583361.475616
+  },
+  {
+    "path": "company-os/ops/antigravity-sync-bridge-20260604-2031/bridge_sync.log",
+    "size": 5242,
+    "mtime": 1780583361.4754329
+  },
+  {
+    "path": "company-os/ops/dify-implementation-plan-20260604-2124/no_api_pilot_runbook.md",
+    "size": 1086,
+    "mtime": 1780583361.3725548
+  },
+  {
+    "path": "company-os/ops/dify-implementation-plan-20260604-2124/verify.log",
+    "size": 615,
+    "mtime": 1780583154.6656477
+  },
+  {
+    "path": "company-os/ops/dify-implementation-plan-20260604-2124/workflows.json",
+    "size": 1539,
+    "mtime": 1780583154.615602
+  },
+  {
+    "path": "company-os/ops/dify-implementation-plan-20260604-2124/README.md",
+    "size": 2321,
+    "mtime": 1780583154.6137404
+  },
+  {
+    "path": "memory/areas/dropship-affiliate/MEMORY.md",
+    "size": 4743,
+    "mtime": 1780582314.3202798
+  },
+  {
+    "path": "memory/areas/dropship-affiliate/MEMORY.md",
+    "size": 4743,
+    "mtime": 1780582314.3202798
+  },
+  {
+    "path": "memory/areas/render-automation/lab_speedramp_focus_20260604_2106/learning_note.md",
+    "size": 356,
+    "mtime": 1780582137.7738566
+  },
+  {
+    "path": "memory/areas/render-automation/lab_speedramp_focus_20260604_2106/learning_note.md",
+    "size": 356,
+    "mtime": 1780582137.7738566
+  },
+  {
+    "path": "memory/areas/render-automation/lab_speedramp_focus_20260604_2106/postflight_report.md",
+    "size": 397,
+    "mtime": 1780582137.771766
+  },
+  {
+    "path": "memory/areas/render-automation/lab_speedramp_focus_20260604_2106/postflight_report.md",
+    "size": 397,
+    "mtime": 1780582137.771766
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/human_review_batch2_priority_20260604_2103.md",
+    "size": 966,
+    "mtime": 1780581856.5827446
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/human_review_batch2_priority_20260604_2103.csv",
+    "size": 5951,
+    "mtime": 1780581856.5826285
+  },
+  {
+    "path": "upharma/HEARTBEAT.md",
+    "size": 51706,
+    "mtime": 1780581658.045369
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/human_review_batch1_priority_20260604_2033.md",
+    "size": 1308,
+    "mtime": 1780580088.6876523
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/human_review_batch1_priority_20260604_2033.csv",
+    "size": 5816,
+    "mtime": 1780580088.6875236
+  },
+  {
+    "path": "company-os/ops/antigravity-sync-bridge-20260604-2031/bridge_state.json",
+    "size": 276,
+    "mtime": 1780579993.1529384
+  },
+  {
+    "path": "company-os/ops/antigravity-sync-bridge-20260604-2031/README.md",
+    "size": 1040,
+    "mtime": 1780579983.6319392
+  },
+  {
+    "path": "company-os/ops/antigravity-sync-bridge-20260604-2031/antigravity_sync_bridge.py",
+    "size": 5282,
+    "mtime": 1780579969.3871052
+  },
+  {
+    "path": "company-os/ops/antigravity-sync-bridge-20260604-2031/ANTIGRAVITY_SYNC_TASK.md",
+    "size": 1419,
+    "mtime": 1780579895.8755362
+  },
+  {
+    "path": "memory/areas/render-automation/lab_shape_morph_transition_20260604_2021/learning_note.md",
+    "size": 261,
+    "mtime": 1780579427.683234
+  },
+  {
+    "path": "memory/areas/render-automation/lab_shape_morph_transition_20260604_2021/learning_note.md",
+    "size": 261,
+    "mtime": 1780579427.683234
+  },
+  {
+    "path": "memory/areas/render-automation/lab_shape_morph_transition_20260604_2021/postflight_report.md",
+    "size": 427,
+    "mtime": 1780579427.68125
+  },
+  {
+    "path": "memory/areas/render-automation/lab_shape_morph_transition_20260604_2021/postflight_report.md",
+    "size": 427,
+    "mtime": 1780579427.68125
+  },
+  {
+    "path": "company-os/ops/apply-dashboard-20260604-2015/verify.log",
+    "size": 878,
+    "mtime": 1780578999.3988235
+  },
+  {
+    "path": "company-os/ops/apply-dashboard-20260604-2015/verify_apply_dashboard.py",
+    "size": 519,
+    "mtime": 1780578999.3684642
+  },
+  {
+    "path": "company-os/ops/apply-dashboard-20260604-2015/README.md",
+    "size": 2367,
+    "mtime": 1780578999.3684037
+  },
+  {
+    "path": "company-os/ops/apply-dashboard-20260604-2015/apply_dashboard.json",
+    "size": 3752,
+    "mtime": 1780578999.3683074
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/handoff_next_action_board_20260604_2003.md",
+    "size": 1339,
+    "mtime": 1780578294.100627
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/drug_db_crm_import_ready_audit_20260604_2000.md",
+    "size": 2008,
+    "mtime": 1780578074.9390934
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/drug_db_crm_blocker_list_20260604_2000.csv",
+    "size": 167,
+    "mtime": 1780578074.938985
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/drug_db_crm_import_ready_64sku_20260604_2000.csv",
+    "size": 13104,
+    "mtime": 1780578074.9388888
+  },
+  {
+    "path": "bun/epoch-ascendant-mvp/MOBILE_TOUCH_FIX_REPORT_20260604.md",
+    "size": 671,
+    "mtime": 1780577837.0093076
+  },
+  {
+    "path": "bun/epoch-ascendant-mvp/Logs/mobile_touch_test_2000/touch_test.log",
+    "size": 217,
+    "mtime": 1780577764.743484
+  },
+  {
+    "path": "bun/epoch-ascendant-mvp/Logs/mobile_touch_test_2000/server.log",
+    "size": 211,
+    "mtime": 1780577758.8748107
+  },
+  {
+    "path": "bun/epoch-ascendant-mvp/index.html",
+    "size": 20763,
+    "mtime": 1780577739.72352
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/EPOCH_CLEAR_DELTA_1940.md",
+    "size": 1721,
+    "mtime": 1780577418.4352276
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/epoch_clear_1940/chrome_9223.log",
+    "size": 11085,
+    "mtime": 1780577414.9206312
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/capture_epoch_1940_simple.js",
+    "size": 1863,
+    "mtime": 1780577337.14652
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/epoch_clear_1940/capture_error.log",
+    "size": 264,
+    "mtime": 1780577309.994923
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/capture_epoch_1940_9223b.js",
+    "size": 2503,
+    "mtime": 1780577299.9010773
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Build/WebGL/Logs/runtime_playtest/epoch_clear_1940/http.log",
+    "size": 1590,
+    "mtime": 1780577293.954004
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/capture_epoch_1940_9223.js",
+    "size": 2647,
+    "mtime": 1780577241.4802625
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/epoch_clear_1940/chrome.log",
+    "size": 11713,
+    "mtime": 1780577234.5723135
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/capture_epoch_1940.js",
+    "size": 2503,
+    "mtime": 1780577201.9751303
+  },
+  {
+    "path": "memory/areas/render-automation/lab_glitch_hook_gradient_20260604_1937/postflight_report.md",
+    "size": 246,
+    "mtime": 1780576655.3446624
+  },
+  {
+    "path": "memory/areas/render-automation/lab_glitch_hook_gradient_20260604_1937/postflight_report.md",
+    "size": 246,
+    "mtime": 1780576655.3446624
+  },
+  {
+    "path": "memory/areas/render-automation/lab_glitch_hook_gradient_20260604_1937/learning_note.md",
+    "size": 1238,
+    "mtime": 1780576655.3428357
+  },
+  {
+    "path": "memory/areas/render-automation/lab_glitch_hook_gradient_20260604_1937/learning_note.md",
+    "size": 1238,
+    "mtime": 1780576655.3428357
+  },
+  {
+    "path": "memory/areas/render-automation/lab_glitch_hook_gradient_20260604_1937/ffprobe.json",
+    "size": 226,
+    "mtime": 1780576634.5564754
+  },
+  {
+    "path": "memory/areas/render-automation/lab_glitch_hook_gradient_20260604_1937/ffprobe.json",
+    "size": 226,
+    "mtime": 1780576634.5564754
+  },
+  {
+    "path": "memory/areas/render-automation/lab_glitch_hook_gradient_20260604_1937/err2.log",
+    "size": 4671,
+    "mtime": 1780576634.520142
+  },
+  {
+    "path": "memory/areas/render-automation/lab_glitch_hook_gradient_20260604_1937/err2.log",
+    "size": 4671,
+    "mtime": 1780576634.520142
+  },
+  {
+    "path": "memory/areas/render-automation/lab_glitch_hook_gradient_20260604_1937/err1.log",
+    "size": 4687,
+    "mtime": 1780576632.9622571
+  },
+  {
+    "path": "memory/areas/render-automation/lab_glitch_hook_gradient_20260604_1937/err1.log",
+    "size": 4687,
+    "mtime": 1780576632.9622571
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/handoff_signoff_20260604.md",
+    "size": 1224,
+    "mtime": 1780576480.874374
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/handoff_signoff_checklist_20260604.csv",
+    "size": 1274,
+    "mtime": 1780576465.853641
+  },
+  {
+    "path": "upharma/tmp/shop0104_ctkm_gift_value_invprice_2026_05_12_23.csv",
+    "size": 256,
+    "mtime": 1780576156.6468782
+  },
+  {
+    "path": "company-os/ops/COMPANY_OPS_CADENCE_JOB_SPEC_20260604_1913.md",
+    "size": 1085,
+    "mtime": 1780575292.1186645
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/EPOCH_CLEAR_DELTA_1910.md",
+    "size": 1094,
+    "mtime": 1780575209.6355686
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/epoch_ascendant_clear_1910/evidence/metrics.json",
+    "size": 1382,
+    "mtime": 1780575209.630047
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/epoch_ascendant_clear_1910/evidence/server.log",
+    "size": 1590,
+    "mtime": 1780575173.7378218
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/epoch_ascendant_clear_1910/playtest_chrome.js",
+    "size": 1298,
+    "mtime": 1780575155.471897
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/epoch_ascendant_clear_1910/playtest.js",
+    "size": 1145,
+    "mtime": 1780575132.1531181
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/epoch_ascendant_clear_1910/index.html",
+    "size": 4001,
+    "mtime": 1780575118.118302
+  },
+  {
+    "path": "upharma/tmp/shop0104_ctkm_gifts_2026_05_12_23.csv",
+    "size": 253,
+    "mtime": 1780574298.6343217
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_1851_shimmer_caption_learning.md",
+    "size": 891,
+    "mtime": 1780574005.8865654
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_1851_shimmer_caption_learning.md",
+    "size": 891,
+    "mtime": 1780574005.8865654
+  },
+  {
+    "path": "memory/areas/render-automation/lab_shimmer_caption_20260604_1851/postflight_report.md",
+    "size": 576,
+    "mtime": 1780573984.0141478
+  },
+  {
+    "path": "memory/areas/render-automation/lab_shimmer_caption_20260604_1851/postflight_report.md",
+    "size": 576,
+    "mtime": 1780573984.0141478
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/pharmacist_bundle_index_20260604.md",
+    "size": 2143,
+    "mtime": 1780572865.6957731
+  },
+  {
+    "path": "company-os/ops/COMPANY_OS_USABLE_DECISION_20260604_1828.md",
+    "size": 1459,
+    "mtime": 1780572528.080041
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/epoch_clear_chrome_1309_stdout.log",
+    "size": 18252,
+    "mtime": 1780571585.9874299
+  },
+  {
+    "path": "bun/epoch-ascendant-mvp/PLAYABLE_TRIAL_REPORT_20260604.md",
+    "size": 921,
+    "mtime": 1780571538.5666375
+  },
+  {
+    "path": "bun/epoch-ascendant-mvp/README_PLAYABLE_TRIAL_20260604.md",
+    "size": 550,
+    "mtime": 1780571538.5648153
+  },
+  {
+    "path": "bun/epoch-ascendant-mvp/Logs/playable_trial_mvp/playtest.log",
+    "size": 582,
+    "mtime": 1780571518.1423178
+  },
+  {
+    "path": "bun/epoch-ascendant-mvp/playtest_mvp_chrome.js",
+    "size": 1261,
+    "mtime": 1780571490.7806904
+  },
+  {
+    "path": "memory/areas/render-automation/lab_3d_shadow_caption_20260604_1806/learning_note.md",
+    "size": 713,
+    "mtime": 1780571265.7197895
+  },
+  {
+    "path": "memory/areas/render-automation/lab_3d_shadow_caption_20260604_1806/learning_note.md",
+    "size": 713,
+    "mtime": 1780571265.7197895
+  },
+  {
+    "path": "memory/areas/render-automation/lab_3d_shadow_caption_20260604_1806/ffprobe.json",
+    "size": 194,
+    "mtime": 1780571265.7168067
+  },
+  {
+    "path": "memory/areas/render-automation/lab_3d_shadow_caption_20260604_1806/ffprobe.json",
+    "size": 194,
+    "mtime": 1780571265.7168067
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_label_dictionary_20260604_1803.md",
+    "size": 1526,
+    "mtime": 1780571090.825334
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_label_dictionary_20260604_1803.csv",
+    "size": 12122,
+    "mtime": 1780571090.8252218
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/EPOCH_HEARTBEAT_DELTA_1740.md",
+    "size": 6248,
+    "mtime": 1780569672.2123349
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_human_decision_guide_20260604_1735.md",
+    "size": 1611,
+    "mtime": 1780569246.9457865
+  },
+  {
+    "path": "memory/areas/dropship-affiliate/2026-06-04_daily_checkpoint_smallbiz_tarot_render_1731.md",
+    "size": 2690,
+    "mtime": 1780569125.3179414
+  },
+  {
+    "path": "memory/areas/dropship-affiliate/2026-06-04_daily_checkpoint_smallbiz_tarot_render_1731.md",
+    "size": 2690,
+    "mtime": 1780569125.3179414
+  },
+  {
+    "path": "company-os/ops/COMPANY_OS_APPLY_TRIAL_20260604_1731.json",
+    "size": 1573,
+    "mtime": 1780569050.3983674
+  },
+  {
+    "path": "company-os/ops/BLOCK_C_WIP_CONTROL_20260604_1723.json",
+    "size": 1207,
+    "mtime": 1780568614.3570461
+  },
+  {
+    "path": "company-os/ops/COMPANY_OS_30M_DELTA_20260604_1723.md",
+    "size": 795,
+    "mtime": 1780568614.355009
+  },
+  {
+    "path": "memory/areas/render-automation/heartbeat_learning_20260604_1721/postflight_report.md",
+    "size": 114,
+    "mtime": 1780568537.7385142
+  },
+  {
+    "path": "memory/areas/render-automation/heartbeat_learning_20260604_1721/postflight_report.md",
+    "size": 114,
+    "mtime": 1780568537.7385142
+  },
+  {
+    "path": "memory/areas/render-automation/heartbeat_learning_20260604_1721/note.md",
+    "size": 327,
+    "mtime": 1780568537.7365499
+  },
+  {
+    "path": "memory/areas/render-automation/heartbeat_learning_20260604_1721/note.md",
+    "size": 327,
+    "mtime": 1780568537.7365499
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/epoch_clear_1710_unity.log",
+    "size": 19678,
+    "mtime": 1780567924.9378943
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/EPOCH_CLEAR_DELTA_1510_to_DONE.md",
+    "size": 2204,
+    "mtime": 1780567924.7196462
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/epoch_clear_1510/epoch_clear_1510_sim.log",
+    "size": 1908,
+    "mtime": 1780567924.7194989
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/shadercompiler-UnityShaderCompiler-0.log",
+    "size": 184,
+    "mtime": 1780567924.333882
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/EditorOnlyScriptingSettings.json",
+    "size": 182,
+    "mtime": 1780567923.786384
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/fullprofile.json",
+    "size": 92302,
+    "mtime": 1780567923.7862053
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/tundra.log.json",
+    "size": 61421,
+    "mtime": 1780567923.7780566
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/CHROME_LIVE_PLAYTEST_REPORT_20260604_1706.md",
+    "size": 911,
+    "mtime": 1780567836.9698129
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/chrome_live_1706e/playwright_live.log",
+    "size": 4537,
+    "mtime": 1780567819.1571057
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/chrome_live_1706e/server.log",
+    "size": 1140,
+    "mtime": 1780567766.6997488
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/chrome_live_1706e/gzip_server.py",
+    "size": 887,
+    "mtime": 1780567764.6534972
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/chrome_live_1706d/playwright_live.log",
+    "size": 1652,
+    "mtime": 1780567732.1167815
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/chrome_live_1706d/server.log",
+    "size": 744,
+    "mtime": 1780567730.1237912
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/chrome_live_1706c/CHROME_LIVE_PLAYTEST_SUMMARY.md",
+    "size": 107,
+    "mtime": 1780567703.418172
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/chrome_live_1706c/playwright_live.log",
+    "size": 1518,
+    "mtime": 1780567703.4012182
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/chrome_live_1706c/server.log",
+    "size": 968,
+    "mtime": 1780567659.463725
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/chrome_live_1706b/playwright_live.log",
+    "size": 6820,
+    "mtime": 1780567629.8605263
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/chrome_live_1706b/server.log",
+    "size": 744,
+    "mtime": 1780567627.1155577
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/chrome_live_1706/chrome_cdp_test.log",
+    "size": 122,
+    "mtime": 1780567599.5354464
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/chrome_live_1706/server.log",
+    "size": 744,
+    "mtime": 1780567597.4804115
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_human_review_sheet_20260604_1703.md",
+    "size": 1036,
+    "mtime": 1780567453.3395822
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_human_review_sheet_20260604_1703.csv",
+    "size": 9158,
+    "mtime": 1780567453.3394964
+  },
+  {
+    "path": "company-os/ops/COMPANY_OS_NO_API_RUNBOOK_20260604_1642.md",
+    "size": 1246,
+    "mtime": 1780566184.4977124
+  },
+  {
+    "path": "memory/areas/render-automation/lab_waveform_caption_20260604_1636/learning_note.md",
+    "size": 453,
+    "mtime": 1780565924.9652796
+  },
+  {
+    "path": "memory/areas/render-automation/lab_waveform_caption_20260604_1636/learning_note.md",
+    "size": 453,
+    "mtime": 1780565924.9652796
+  },
+  {
+    "path": "memory/areas/render-automation/lab_waveform_caption_20260604_1636/postflight_report.md",
+    "size": 503,
+    "mtime": 1780565924.9627504
+  },
+  {
+    "path": "memory/areas/render-automation/lab_waveform_caption_20260604_1636/postflight_report.md",
+    "size": 503,
+    "mtime": 1780565924.9627504
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_reenrich_merge_preview_20260604_1633.md",
+    "size": 809,
+    "mtime": 1780565708.0684872
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_reenrich_merge_preview_20260604_1633.csv",
+    "size": 48447,
+    "mtime": 1780565708.0683682
+  },
+  {
+    "path": "company-os/ops/dify_ops_loop_20260604_162235.log",
+    "size": 1604,
+    "mtime": 1780564956.1012135
+  },
+  {
+    "path": "company-os/ops/dify_auth_probe_20260604_162236.json",
+    "size": 513,
+    "mtime": 1780564956.0961795
+  },
+  {
+    "path": "company-os/ops/evidence_gate_20260604_162235.json",
+    "size": 532,
+    "mtime": 1780564955.9972963
+  },
+  {
+    "path": "company-os/ops/sla_scan_20260604_162235.json",
+    "size": 87,
+    "mtime": 1780564955.9602995
+  },
+  {
+    "path": "company-os/ops/P0_NO_API_FALLBACK_SUMMARY_20260604_1624.md",
+    "size": 504,
+    "mtime": 1780564955.4659488
+  },
+  {
+    "path": "company-os/ops/p0_results/p0_upharma_readonly_review_20260604_1624.json",
+    "size": 623,
+    "mtime": 1780564955.465877
+  },
+  {
+    "path": "company-os/ops/p0_results/p0_a2a_task_lookup_20260604_1624.json",
+    "size": 464,
+    "mtime": 1780564955.46578
+  },
+  {
+    "path": "company-os/ops/p0_results/p0_company_knowledge_qa_20260604_1624.json",
+    "size": 544,
+    "mtime": 1780564955.465662
+  },
+  {
+    "path": "company-os/ops/DIFY_NO_API_FALLBACK_DECISION_20260604_1620.md",
+    "size": 935,
+    "mtime": 1780564869.3217041
+  },
+  {
+    "path": "memory/areas/tech-ops/research/shardbrowser_eval_20260604.md",
+    "size": 3259,
+    "mtime": 1780564424.9610295
+  },
+  {
+    "path": "memory/areas/tech-ops/research/shardbrowser_eval_20260604.md",
+    "size": 3259,
+    "mtime": 1780564424.9610295
+  },
+  {
+    "path": "company-os/ops/dify_ops_loop_20260604_161307.log",
+    "size": 1595,
+    "mtime": 1780564387.9426634
+  },
+  {
+    "path": "company-os/ops/dify_auth_probe_20260604_161307.json",
+    "size": 513,
+    "mtime": 1780564387.9372354
+  },
+  {
+    "path": "company-os/ops/evidence_gate_20260604_161307.json",
+    "size": 523,
+    "mtime": 1780564387.7909098
+  },
+  {
+    "path": "company-os/ops/sla_scan_20260604_161307.json",
+    "size": 87,
+    "mtime": 1780564387.7522516
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_low_trust_reenrich_audit_20260604_1600.md",
+    "size": 1308,
+    "mtime": 1780563711.3703454
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_low_trust_reenrich_results_20260604_1600.csv",
+    "size": 2139,
+    "mtime": 1780563711.3702607
+  },
+  {
+    "path": "upharma/tmp/low_trust_reenrich_1600.py",
+    "size": 3947,
+    "mtime": 1780563711.3155963
+  },
+  {
+    "path": "memory/areas/render-automation/lab_liquid_caption_20260604_1551/postflight_report.md",
+    "size": 397,
+    "mtime": 1780563166.2787662
+  },
+  {
+    "path": "memory/areas/render-automation/lab_liquid_caption_20260604_1551/postflight_report.md",
+    "size": 397,
+    "mtime": 1780563166.2787662
+  },
+  {
+    "path": "memory/areas/render-automation/lab_liquid_caption_20260604_1551/learning_note.md",
+    "size": 453,
+    "mtime": 1780563166.274289
+  },
+  {
+    "path": "memory/areas/render-automation/lab_liquid_caption_20260604_1551/learning_note.md",
+    "size": 453,
+    "mtime": 1780563166.274289
+  },
+  {
+    "path": "company-os/rollout/open_design_post_dify_proposal_to_cao_20260604.md",
+    "size": 2579,
+    "mtime": 1780562771.626252
+  },
+  {
+    "path": "memory/areas/tech-ops/research/open_design_dify_application_20260604.md",
+    "size": 2476,
+    "mtime": 1780562372.5649617
+  },
+  {
+    "path": "memory/areas/tech-ops/research/open_design_dify_application_20260604.md",
+    "size": 2476,
+    "mtime": 1780562372.5649617
+  },
+  {
+    "path": "memory/areas/tech-ops/research/open_design_eval_20260604.md",
+    "size": 3247,
+    "mtime": 1780562128.6490195
+  },
+  {
+    "path": "memory/areas/tech-ops/research/open_design_eval_20260604.md",
+    "size": 3247,
+    "mtime": 1780562128.6490195
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_low_trust_reenrich_worklist_20260604_1531.md",
+    "size": 1106,
+    "mtime": 1780561941.8400614
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_low_trust_reenrich_worklist_20260604_1531.csv",
+    "size": 2919,
+    "mtime": 1780561941.8399062
+  },
+  {
+    "path": "company-os/ops/dify_auth_probe_20260604_152714.json",
+    "size": 513,
+    "mtime": 1780561634.2872195
+  },
+  {
+    "path": "company-os/ops/dify_auth_probe.py",
+    "size": 2274,
+    "mtime": 1780561634.1708472
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/epoch_clear_1510_unity.log",
+    "size": 46409,
+    "mtime": 1780560833.878054
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/2000b0aE.dag.json",
+    "size": 1008161,
+    "mtime": 1780560832.0601141
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/2000b0aE-inputdata.json",
+    "size": 507203,
+    "mtime": 1780560831.7334495
+  },
+  {
+    "path": "company-os/ops/sla_scan_20260604_151208.json",
+    "size": 135,
+    "mtime": 1780560728.7156074
+  },
+  {
+    "path": "company-os/ops/P0_LOCAL_ACCEPTANCE_RESULTS_20260604_1506.md",
+    "size": 1226,
+    "mtime": 1780560367.8250241
+  },
+  {
+    "path": "company-os/ops/sla_scan_20260604_150607.json",
+    "size": 87,
+    "mtime": 1780560367.8189733
+  },
+  {
+    "path": "company-os/ops/dify_ops_cli.py",
+    "size": 4541,
+    "mtime": 1780560367.492132
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/EPOCH_CLEAR_DELTA_1505_to_1510.md",
+    "size": 2801,
+    "mtime": 1780560314.148783
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/editmode_combat_sim_unity_150407.log",
+    "size": 47056,
+    "mtime": 1780560255.528938
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/EDITMODE_COMBAT_SIM_REPORT.md",
+    "size": 673,
+    "mtime": 1780560255.3647048
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/editmode_combat_sim.log",
+    "size": 1025,
+    "mtime": 1780560255.3645682
+  },
+  {
+    "path": "company-os/ops/evidence_gate_20260604_145651.json",
+    "size": 515,
+    "mtime": 1780559811.9571881
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/EPOCH_CLEAR_DELTA_1505.md",
+    "size": 3597,
+    "mtime": 1780559490.1849024
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/editmode_scene_render_unity_20260604_1502.log",
+    "size": 42520,
+    "mtime": 1780559404.9041955
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/editmode_scene_render_20260604_1455.log",
+    "size": 622,
+    "mtime": 1780559404.7547162
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/EDITMODE_SCENE_RENDER_20260604_1455.md",
+    "size": 196,
+    "mtime": 1780559404.7546613
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/editmode_scene_render_runner_1502.log",
+    "size": 0,
+    "mtime": 1780559401.1641111
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/editmode_scene_render_unity_20260604_1455.log",
+    "size": 42192,
+    "mtime": 1780559273.9747522
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/editmode_scene_render_runner_1455.log",
+    "size": 0,
+    "mtime": 1780559269.9644454
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/playmode_frame_capture_unity_20260604_1451.log",
+    "size": 27408,
+    "mtime": 1780559244.3026006
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/playmode_frame_capture_20260604_1445.log",
+    "size": 59,
+    "mtime": 1780559130.325898
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/playmode_frame_capture_runner_1451.log",
+    "size": 0,
+    "mtime": 1780559127.035741
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/playmode_frame_capture_unity_20260604_1445.log",
+    "size": 39954,
+    "mtime": 1780559021.3319874
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/playmode_frame_capture_runner_1445.log",
+    "size": 0,
+    "mtime": 1780559012.7492528
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/epoch_clear_server_1440.log",
+    "size": 290,
+    "mtime": 1780558941.6494067
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/epoch_clear_server_1324.log",
+    "size": 1032,
+    "mtime": 1780558914.2003827
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_64sku_source_quality_20260604_1430.md",
+    "size": 1678,
+    "mtime": 1780558342.2255337
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_64sku_source_quality_20260604_1430.csv",
+    "size": 12228,
+    "mtime": 1780558342.2253785
+  },
+  {
+    "path": "company-os/rollout/dify_ops_20260604/README_NEXT_ACTIONS.md",
+    "size": 320,
+    "mtime": 1780558232.6577256
+  },
+  {
+    "path": "company-os/rollout/dify_ops_20260604/P0_ACCEPTANCE_TESTS_20260604.md",
+    "size": 975,
+    "mtime": 1780558232.6557844
+  },
+  {
+    "path": "company-os/rollout/dify_ops_20260604/task_registry_schema.json",
+    "size": 592,
+    "mtime": 1780558232.6539993
+  },
+  {
+    "path": "company-os/rollout/dify_ops_20260604/DIFY_COMPANY_OPERATING_MODEL_20260604.md",
+    "size": 2445,
+    "mtime": 1780558232.6517255
+  },
+  {
+    "path": "company-os/rollout/dify_company_p0_usecases_20260604.json",
+    "size": 630,
+    "mtime": 1780557036.0952792
+  },
+  {
+    "path": "company-os/rollout/dify_company_apply_plan_20260604.md",
+    "size": 1668,
+    "mtime": 1780557036.093535
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_64sku_import_readiness_20260604_1400.md",
+    "size": 1219,
+    "mtime": 1780556506.1758432
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_64sku_import_readiness_20260604_1400.csv",
+    "size": 21828,
+    "mtime": 1780556506.1757586
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/SL_T5_2026_16NT.csv",
+    "size": 1395,
+    "mtime": 1780556043.563598
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/BLOCKER_RESOLUTION_REPORT_20260604.md",
+    "size": 1889,
+    "mtime": 1780555413.4719396
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/static_clear_verifier_unity_20260604_1340.log",
+    "size": 34059,
+    "mtime": 1780555384.1429474
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/static_clear_verifier_20260604_1340.log",
+    "size": 211,
+    "mtime": 1780555383.9742458
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/STATIC_CLEAR_VERIFIER_20260604_1340.md",
+    "size": 211,
+    "mtime": 1780555383.9741282
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/playmode_clear_verifier_unity_20260604_1340_retry.log",
+    "size": 29595,
+    "mtime": 1780555347.0243073
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/playmode_clear_verifier_20260604_1340.log",
+    "size": 22,
+    "mtime": 1780555346.9122417
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/playmode_clear_verifier_unity_20260604_1340.log",
+    "size": 31262,
+    "mtime": 1780555330.1359303
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_blocker_resolution_20260604.log",
+    "size": 744,
+    "mtime": 1780555294.1966622
+  },
+  {
+    "path": "memory/areas/tech-ops/dify_evidence_20260604/dify_gate_canonical_artifact_mirror_evidence_20260604_1339.md",
+    "size": 1629,
+    "mtime": 1780555197.5229905
+  },
+  {
+    "path": "memory/areas/tech-ops/dify_evidence_20260604/dify_gate_canonical_artifact_mirror_evidence_20260604_1339.md",
+    "size": 1629,
+    "mtime": 1780555197.5229905
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_1336_swipe_reveal_caption_learning.md",
+    "size": 852,
+    "mtime": 1780555144.3339508
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_1336_swipe_reveal_caption_learning.md",
+    "size": 852,
+    "mtime": 1780555144.3339508
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_64sku_validation_flags_20260604_1329.md",
+    "size": 874,
+    "mtime": 1780554602.242095
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_64sku_validation_flags_20260604_1329.csv",
+    "size": 9779,
+    "mtime": 1780554602.2419982
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/EPOCH_CLEAR_DELTA_1326.md",
+    "size": 1388,
+    "mtime": 1780554519.2608097
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/epoch_clear_chrome_1324.log",
+    "size": 40,
+    "mtime": 1780554402.2527058
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Build/WebGL/index.html",
+    "size": 5821,
+    "mtime": 1780554393.4966402
+  },
+  {
+    "path": "memory/areas/tech-ops/dify_evidence_20260604/antigravity_fix_summary_20260604_0710.md",
+    "size": 1960,
+    "mtime": 1780554280.2104826
+  },
+  {
+    "path": "memory/areas/tech-ops/dify_evidence_20260604/antigravity_fix_summary_20260604_0710.md",
+    "size": 1960,
+    "mtime": 1780554280.2104826
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/EPOCH_CLEAR_DELTA_1309.md",
+    "size": 2272,
+    "mtime": 1780553588.8738334
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/epoch_clear_input_cdp_20260604_1309.log",
+    "size": 3872,
+    "mtime": 1780553548.37595
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/playtest_epoch_clear_input.js",
+    "size": 3163,
+    "mtime": 1780553479.855461
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/gameplay_playtest_cdp.log",
+    "size": 70,
+    "mtime": 1780553444.1034124
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/epoch_clear_input_retry_20260604_1309.log",
+    "size": 70,
+    "mtime": 1780553444.1032162
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_64sku_qa_v2_20260604_1259.md",
+    "size": 1055,
+    "mtime": 1780552814.2117088
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_1251_animated_highlight_caption_learning.md",
+    "size": 693,
+    "mtime": 1780552403.5037827
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_1251_animated_highlight_caption_learning.md",
+    "size": 693,
+    "mtime": 1780552403.5037827
+  },
+  {
+    "path": "upharma/output/u62_ctkm_202605/u62_so_sanh_giai_doan_202605.csv",
+    "size": 478,
+    "mtime": 1780551173.8746827
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_64sku_qa_20260604.md",
+    "size": 890,
+    "mtime": 1780551043.4419026
+  },
+  {
+    "path": "upharma/tmp/shop0062_period_compare_2026_05_with_avg_order_product.csv",
+    "size": 478,
+    "mtime": 1780550786.3372302
+  },
+  {
+    "path": "upharma/tmp/shop0062_period_compare_2026_05_RECHECK_hang_he_so.csv",
+    "size": 444,
+    "mtime": 1780550623.8180292
+  },
+  {
+    "path": "upharma/tmp/shop0062_period_compare_2026_05.csv",
+    "size": 472,
+    "mtime": 1780550558.5515254
+  },
+  {
+    "path": "upharma/tmp/shop0062_zero_gift_items_2026_05.csv",
+    "size": 2690,
+    "mtime": 1780550255.6345987
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/EPOCH_CLEAR_TO_DONE_REPORT_20260604.md",
+    "size": 1442,
+    "mtime": 1780550051.6286707
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/epoch_clear_webgl_build_20260604.log",
+    "size": 212048,
+    "mtime": 1780550038.023574
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/buildreport.json",
+    "size": 1491285,
+    "mtime": 1780550037.5874496
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Build/WebGL/Build/WebGL.loader.js",
+    "size": 26982,
+    "mtime": 1780550037.417156
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/Player3612b428.dag.json",
+    "size": 2049092,
+    "mtime": 1780550037.175539
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/artifacts/WebGLWebGL.loader.js",
+    "size": 26982,
+    "mtime": 1780550035.0818844
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js",
+    "size": 405407,
+    "mtime": 1780550034.9336538
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.js",
+    "size": 405464,
+    "mtime": 1780550034.4306037
+  },
+  {
+    "path": "upharma/tmp/shop0062_ctkm_vs_nonctkm_2026_05.csv",
+    "size": 170,
+    "mtime": 1780550012.8232582
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/artifacts/WebGL/il2cppOutput/cpp/analytics.json",
+    "size": 1237,
+    "mtime": 1780550003.2485657
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/artifacts/WebGL/ManagedStripped/analytics.json",
+    "size": 2703,
+    "mtime": 1780549998.2724473
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/artifacts/WebGL/ManagedStripped/UnityLinkerToEditorData.json",
+    "size": 31253,
+    "mtime": 1780549998.260337
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/artifacts/UnityLinkerInputs/EditorToUnityLinkerData.json",
+    "size": 104093,
+    "mtime": 1780549996.1919186
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/PlayerDataCache/WebGL/DataBuildDirtyInfo.json",
+    "size": 78049,
+    "mtime": 1780549995.8310146
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/PlayerDataCache/WebGL/ScriptsOnlyCache.yaml",
+    "size": 21061,
+    "mtime": 1780549995.5852203
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/PlayerDataCache/WebGL/Data/ScriptingAssemblies.json",
+    "size": 3118,
+    "mtime": 1780549995.3749232
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/PlayerDataCache/WebGL/Data/RuntimeInitializeOnLoads.json",
+    "size": 543,
+    "mtime": 1780549995.3525124
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/BuildPlayerData/Player/RuntimeInitializeOnLoads.json",
+    "size": 543,
+    "mtime": 1780549995.3525124
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/BuildPlayerData/Player/TypeDb-All.json",
+    "size": 213256,
+    "mtime": 1780549995.3519235
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/2000b0aP.dag.json",
+    "size": 402486,
+    "mtime": 1780549993.161501
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/2000b0aP-inputdata.json",
+    "size": 222567,
+    "mtime": 1780549992.8456619
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/BuildPlayerData/Editor/TypeDb-All.json",
+    "size": 263525,
+    "mtime": 1780549992.7253096
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/2000b0aESkipCompile.dag.json",
+    "size": 10798,
+    "mtime": 1780549992.3881366
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/2000b0aESkipCompile-inputdata.json",
+    "size": 4402,
+    "mtime": 1780549992.1938365
+  },
+  {
+    "path": "upharma/tmp/shop0062_ctkm_vs_nonctkm_20260604.csv",
+    "size": 1507,
+    "mtime": 1780549954.1154754
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/epoch_clear_chrome_stdout.log",
+    "size": 8566,
+    "mtime": 1780549941.9672592
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/epoch_clear_server.log",
+    "size": 942,
+    "mtime": 1780549898.4724448
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/epoch_clear_gameplay_cdp.log",
+    "size": 70,
+    "mtime": 1780549858.5907404
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/epoch_clear_to_done_20260604.log",
+    "size": 71295,
+    "mtime": 1780549846.6770058
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_1206_typewriter_caption_learning.md",
+    "size": 986,
+    "mtime": 1780549694.1576302
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_1206_typewriter_caption_learning.md",
+    "size": 986,
+    "mtime": 1780549694.1576302
+  },
+  {
+    "path": "memory/areas/render-automation/lab_typewriter_caption_20260604_1206/postflight_report.md",
+    "size": 469,
+    "mtime": 1780549694.155755
+  },
+  {
+    "path": "memory/areas/render-automation/lab_typewriter_caption_20260604_1206/postflight_report.md",
+    "size": 469,
+    "mtime": 1780549694.155755
+  },
+  {
+    "path": "memory/areas/render-automation/lab_typewriter_caption_20260604_1206/ffprobe.json",
+    "size": 239,
+    "mtime": 1780549694.1531808
+  },
+  {
+    "path": "memory/areas/render-automation/lab_typewriter_caption_20260604_1206/ffprobe.json",
+    "size": 239,
+    "mtime": 1780549694.1531808
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/staging_import_plan_20260604.md",
+    "size": 1630,
+    "mtime": 1780549240.631188
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_64sku_20260604.md",
+    "size": 3803,
+    "mtime": 1780549240.6311073
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_64sku_20260604.csv",
+    "size": 45246,
+    "mtime": 1780549240.6016252
+  },
+  {
+    "path": "upharma/tmp/create_review_pack_20260604.py",
+    "size": 5455,
+    "mtime": 1780549240.5725636
+  },
+  {
+    "path": "memory/skills/agentops/a2a_done_gate_checklist.md",
+    "size": 2753,
+    "mtime": 1780549201.6550477
+  },
+  {
+    "path": "memory/skills/agentops/a2a_bus_policy.md",
+    "size": 2602,
+    "mtime": 1780549201.6530845
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_1121_subtitle_pop_learning.md",
+    "size": 588,
+    "mtime": 1780546970.1051452
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_1121_subtitle_pop_learning.md",
+    "size": 588,
+    "mtime": 1780546970.1051452
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/RUNTIME_PLAYTEST_REPORT_20260604.md",
+    "size": 3840,
+    "mtime": 1780544858.2074564
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/playtest_gameplay.js",
+    "size": 3205,
+    "mtime": 1780544785.7827077
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/runtime_playtest_cdp.log",
+    "size": 8605,
+    "mtime": 1780544748.934068
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/serve_webgl.py",
+    "size": 2259,
+    "mtime": 1780544729.3768256
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/playtest_cdp.js",
+    "size": 4195,
+    "mtime": 1780544607.6993396
+  },
+  {
+    "path": "bun/node_modules/.package-lock.json",
+    "size": 662,
+    "mtime": 1780544583.9324403
+  },
+  {
+    "path": "bun/node_modules/ws/README.md",
+    "size": 15306,
+    "mtime": 1780544583.9312944
+  },
+  {
+    "path": "bun/node_modules/ws/package.json",
+    "size": 1753,
+    "mtime": 1780544583.931156
+  },
+  {
+    "path": "bun/node_modules/ws/lib/websocket.js",
+    "size": 37371,
+    "mtime": 1780544583.9309208
+  },
+  {
+    "path": "bun/node_modules/ws/lib/websocket-server.js",
+    "size": 17026,
+    "mtime": 1780544583.9305823
+  },
+  {
+    "path": "bun/node_modules/ws/lib/validation.js",
+    "size": 3903,
+    "mtime": 1780544583.9304726
+  },
+  {
+    "path": "bun/node_modules/ws/lib/subprotocol.js",
+    "size": 1498,
+    "mtime": 1780544583.9304006
+  },
+  {
+    "path": "bun/node_modules/ws/lib/stream.js",
+    "size": 4204,
+    "mtime": 1780544583.930251
+  },
+  {
+    "path": "bun/node_modules/ws/lib/sender.js",
+    "size": 16886,
+    "mtime": 1780544583.9300776
+  },
+  {
+    "path": "bun/node_modules/ws/lib/receiver.js",
+    "size": 17802,
+    "mtime": 1780544583.929899
+  },
+  {
+    "path": "bun/node_modules/ws/lib/permessage-deflate.js",
+    "size": 14532,
+    "mtime": 1780544583.9296577
+  },
+  {
+    "path": "bun/node_modules/ws/lib/limiter.js",
+    "size": 1034,
+    "mtime": 1780544583.9293585
+  },
+  {
+    "path": "bun/node_modules/ws/index.js",
+    "size": 796,
+    "mtime": 1780544583.9293537
+  },
+  {
+    "path": "bun/node_modules/ws/lib/extension.js",
+    "size": 6183,
+    "mtime": 1780544583.9292037
+  },
+  {
+    "path": "bun/node_modules/ws/lib/event-target.js",
+    "size": 7321,
+    "mtime": 1780544583.9291039
+  },
+  {
+    "path": "bun/node_modules/ws/lib/constants.js",
+    "size": 503,
+    "mtime": 1780544583.928984
+  },
+  {
+    "path": "bun/node_modules/ws/lib/buffer-util.js",
+    "size": 3056,
+    "mtime": 1780544583.9288127
+  },
+  {
+    "path": "bun/node_modules/ws/browser.js",
+    "size": 176,
+    "mtime": 1780544583.9286506
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/runtime_playtest/chrome_stderr.log",
+    "size": 12687,
+    "mtime": 1780544569.9053612
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_1037_beatsync_caption_learning.md",
+    "size": 2020,
+    "mtime": 1780544270.7282581
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_1037_beatsync_caption_learning.md",
+    "size": 2020,
+    "mtime": 1780544270.7282581
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/unknown_enrichment_audit_20260604.md",
+    "size": 8491,
+    "mtime": 1780544093.0452192
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/unknown_enrichment_sources_20260604.csv",
+    "size": 43109,
+    "mtime": 1780544093.0438669
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/unknown_enrichment_review_queue_20260604.csv",
+    "size": 83898,
+    "mtime": 1780544093.0416067
+  },
+  {
+    "path": "upharma/tmp/enrich_batch3_1030.py",
+    "size": 8820,
+    "mtime": 1780543880.5114088
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/WEBGL_BUILD_REPORT_20260604.md",
+    "size": 2302,
+    "mtime": 1780542944.9324946
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/webgl_build_20260604_100857.log",
+    "size": 354891,
+    "mtime": 1780542672.6245446
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/Player3612b428-inputdata.json",
+    "size": 50536,
+    "mtime": 1780542555.0996776
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/EditorOnlyVirtualTextureState.json",
+    "size": 79,
+    "mtime": 1780542552.8064966
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/200b0aESkipCompile.dag.json",
+    "size": 10707,
+    "mtime": 1780542544.7580557
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/200b0aESkipCompile-inputdata.json",
+    "size": 4328,
+    "mtime": 1780542544.6412294
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/200b0aE.dag.json",
+    "size": 1011580,
+    "mtime": 1780542541.717863
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Library/Bee/200b0aE-inputdata.json",
+    "size": 515513,
+    "mtime": 1780542541.4255672
+  },
+  {
+    "path": "upharma/tmp/enrich_batch2_0954.py",
+    "size": 6410,
+    "mtime": 1780542110.9264135
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_0952_speedramp_punchin_learning.md",
+    "size": 1383,
+    "mtime": 1780541552.2409534
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_0952_speedramp_punchin_learning.md",
+    "size": 1383,
+    "mtime": 1780541552.2409534
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/SCENE_WIRING_REPORT_20260604.md",
+    "size": 4436,
+    "mtime": 1780540622.2383983
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/scene_wiring_validation_20260604.log",
+    "size": 49417,
+    "mtime": 1780540591.3483791
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/Logs/scene_reload_verify_20260604.log",
+    "size": 44068,
+    "mtime": 1780540579.2483656
+  },
+  {
+    "path": "bun/epoch-ascendant-unity/ProjectSettings/SceneTemplateSettings.json",
+    "size": 3535,
+    "mtime": 1780540537.3665974
+  },
+  {
+    "path": "upharma/tmp/enrich_batch_0930.py",
+    "size": 6611,
+    "mtime": 1780540292.4474857
+  },
+  {
+    "path": "upharma/tools/websearch_skill_upgrade_20260604.md",
+    "size": 3901,
+    "mtime": 1780539779.0381243
+  },
+  {
+    "path": "memory/areas/dropship-affiliate/2026-06-04.md",
+    "size": 500,
+    "mtime": 1780539164.0023012
+  },
+  {
+    "path": "memory/areas/dropship-affiliate/2026-06-04.md",
+    "size": 500,
+    "mtime": 1780539164.0023012
+  },
+  {
+    "path": "bun/reports/osint_smoke/OSINT_SMOKE_REPORT_20260604_0910.md",
+    "size": 1693,
+    "mtime": 1780539163.997161
+  },
+  {
+    "path": "upharma/tools/websearch_upgrade_audit_20260604_0910.md",
+    "size": 2533,
+    "mtime": 1780539144.3824403
+  },
+  {
+    "path": "bun/reports/osint_smoke/badivi_public_serp_scores_20260604.csv",
+    "size": 1109,
+    "mtime": 1780539136.6674798
+  },
+  {
+    "path": "bun/tools/public_serp_smoke.py",
+    "size": 2925,
+    "mtime": 1780539136.5945215
+  },
+  {
+    "path": "upharma/tmp/websearch_smoke_20260604/audit.md",
+    "size": 706,
+    "mtime": 1780539118.968913
+  },
+  {
+    "path": "upharma/tmp/websearch_smoke_20260604/sources.csv",
+    "size": 877,
+    "mtime": 1780539118.9686816
+  },
+  {
+    "path": "upharma/tmp/websearch_smoke_20260604/candidates.csv",
+    "size": 1201,
+    "mtime": 1780539118.9683142
+  },
+  {
+    "path": "upharma/tools/websearch_fallback_smoke_20260604.py",
+    "size": 3891,
+    "mtime": 1780539115.4121106
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs-9.14.4.dist-info/licenses/LICENSE.md",
+    "size": 1063,
+    "mtime": 1780539083.2652903
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/yandex.py",
+    "size": 1250,
+    "mtime": 1780539083.265159
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/yahoo_news.py",
+    "size": 3194,
+    "mtime": 1780539083.265097
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/yahoo.py",
+    "size": 2009,
+    "mtime": 1780539083.2650287
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/wikipedia.py",
+    "size": 2067,
+    "mtime": 1780539083.264964
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/startpage.py",
+    "size": 2142,
+    "mtime": 1780539083.2649028
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/mojeek.py",
+    "size": 1573,
+    "mtime": 1780539083.2648416
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/grokipedia.py",
+    "size": 1455,
+    "mtime": 1780539083.2647753
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/google.py",
+    "size": 3072,
+    "mtime": 1780539083.2647107
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/duckduckgo_videos.py",
+    "size": 2886,
+    "mtime": 1780539083.2646441
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/duckduckgo_news.py",
+    "size": 2185,
+    "mtime": 1780539083.2645833
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/duckduckgo_images.py",
+    "size": 3353,
+    "mtime": 1780539083.2645223
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/duckduckgo.py",
+    "size": 1883,
+    "mtime": 1780539083.264457
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/brave.py",
+    "size": 1633,
+    "mtime": 1780539083.2643955
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/bing_news.py",
+    "size": 2903,
+    "mtime": 1780539083.2643282
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/bing_images.py",
+    "size": 2344,
+    "mtime": 1780539083.2642603
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/bing.py",
+    "size": 2763,
+    "mtime": 1780539083.2641993
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/annasarchive.py",
+    "size": 1839,
+    "mtime": 1780539083.264135
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/engines/__init__.py",
+    "size": 3132,
+    "mtime": 1780539083.264074
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/dht/types.py",
+    "size": 1839,
+    "mtime": 1780539083.263976
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/dht/libp2p_client.py",
+    "size": 27571,
+    "mtime": 1780539083.2639108
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/dht/cache.py",
+    "size": 7281,
+    "mtime": 1780539083.2638266
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/dht/__init__.py",
+    "size": 8925,
+    "mtime": 1780539083.2637532
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/api_server/mcp.py",
+    "size": 7195,
+    "mtime": 1780539083.2636545
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/api_server/dht_service.py",
+    "size": 8893,
+    "mtime": 1780539083.2635818
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/api_server/api.py",
+    "size": 23218,
+    "mtime": 1780539083.2635007
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/api_server/__init__.py",
+    "size": 487,
+    "mtime": 1780539083.2634177
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/utils.py",
+    "size": 1985,
+    "mtime": 1780539083.2633262
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/similarity.py",
+    "size": 2338,
+    "mtime": 1780539083.2632637
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/results.py",
+    "size": 4106,
+    "mtime": 1780539083.2631967
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/http_client2.py",
+    "size": 6354,
+    "mtime": 1780539083.2630527
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/http_client.py",
+    "size": 2718,
+    "mtime": 1780539083.2629735
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/exceptions.py",
+    "size": 308,
+    "mtime": 1780539083.2629068
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/ddgs.py",
+    "size": 19149,
+    "mtime": 1780539083.2628431
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/cli.py",
+    "size": 24837,
+    "mtime": 1780539083.2627475
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/base.py",
+    "size": 4395,
+    "mtime": 1780539083.2624757
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/ddgs/__init__.py",
+    "size": 1570,
+    "mtime": 1780539083.2623832
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/h2/windows.py",
+    "size": 5492,
+    "mtime": 1780539083.249767
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/h2/utilities.py",
+    "size": 26531,
+    "mtime": 1780539083.2496905
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/h2/stream.py",
+    "size": 58752,
+    "mtime": 1780539083.249594
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/h2/settings.py",
+    "size": 12323,
+    "mtime": 1780539083.2493799
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/h2/frame_buffer.py",
+    "size": 6553,
+    "mtime": 1780539083.249265
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/h2/exceptions.py",
+    "size": 5308,
+    "mtime": 1780539083.2491884
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/h2/events.py",
+    "size": 22408,
+    "mtime": 1780539083.2491105
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/h2/errors.py",
+    "size": 1581,
+    "mtime": 1780539083.249017
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/h2/connection.py",
+    "size": 86876,
+    "mtime": 1780539083.2489467
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/h2/config.py",
+    "size": 8344,
+    "mtime": 1780539083.2485836
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/h2/__init__.py",
+    "size": 109,
+    "mtime": 1780539083.2485008
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/fake_useragent/utils.py",
+    "size": 2737,
+    "mtime": 1780539083.244364
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/fake_useragent/log.py",
+    "size": 104,
+    "mtime": 1780539083.2442603
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/fake_useragent/get_version.py",
+    "size": 193,
+    "mtime": 1780539083.2441983
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/fake_useragent/fake.py",
+    "size": 14745,
+    "mtime": 1780539083.244133
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/fake_useragent/errors.py",
+    "size": 203,
+    "mtime": 1780539083.244049
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/fake_useragent/__init__.py",
+    "size": 364,
+    "mtime": 1780539083.2439792
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/hpack/table.py",
+    "size": 10000,
+    "mtime": 1780539083.226642
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/hpack/struct.py",
+    "size": 1463,
+    "mtime": 1780539083.2265556
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/hpack/huffman_table.py",
+    "size": 168650,
+    "mtime": 1780539083.2261963
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/hpack/huffman_constants.py",
+    "size": 4570,
+    "mtime": 1780539083.2260594
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/hpack/huffman.py",
+    "size": 2383,
+    "mtime": 1780539083.2259736
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/hpack/hpack.py",
+    "size": 24514,
+    "mtime": 1780539083.2258892
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/hpack/exceptions.py",
+    "size": 1107,
+    "mtime": 1780539083.2257826
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/hpack/__init__.py",
+    "size": 597,
+    "mtime": 1780539083.2257059
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/hyperframe/frame.py",
+    "size": 31659,
+    "mtime": 1780539083.2216096
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/hyperframe/flags.py",
+    "size": 1294,
+    "mtime": 1780539083.221517
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/hyperframe/exceptions.py",
+    "size": 1516,
+    "mtime": 1780539083.2214477
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/hyperframe/__init__.py",
+    "size": 111,
+    "mtime": 1780539083.2213657
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/diff.py",
+    "size": 32989,
+    "mtime": 1780539083.1972945
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/usedoctest.py",
+    "size": 249,
+    "mtime": 1780539083.1971886
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/_html5builder.py",
+    "size": 3230,
+    "mtime": 1780539083.1971238
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/ElementSoup.py",
+    "size": 320,
+    "mtime": 1780539083.1970546
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/builder.py",
+    "size": 6187,
+    "mtime": 1780539083.1969912
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/_difflib.py",
+    "size": 84954,
+    "mtime": 1780539083.1969104
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/formfill.py",
+    "size": 9681,
+    "mtime": 1780539083.1967537
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/__init__.py",
+    "size": 64425,
+    "mtime": 1780539083.1966703
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/html5parser.py",
+    "size": 8634,
+    "mtime": 1780539083.1949682
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/_diffcommand.py",
+    "size": 2081,
+    "mtime": 1780539083.1948855
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/clean.py",
+    "size": 503,
+    "mtime": 1780539083.1937773
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/_setmixin.py",
+    "size": 1188,
+    "mtime": 1780539083.1936963
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/defs.py",
+    "size": 5398,
+    "mtime": 1780539083.1936197
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/html/soupparser.py",
+    "size": 10197,
+    "mtime": 1780539083.1935275
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/includes/extlibs/__init__.py",
+    "size": 0,
+    "mtime": 1780539083.1930041
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/includes/libexslt/__init__.py",
+    "size": 0,
+    "mtime": 1780539083.1926603
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/includes/libxslt/__init__.py",
+    "size": 0,
+    "mtime": 1780539083.191307
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/includes/libxml/__init__.py",
+    "size": 0,
+    "mtime": 1780539083.1881342
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/includes/__init__.py",
+    "size": 0,
+    "mtime": 1780539083.1860304
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/isoschematron/__init__.py",
+    "size": 13274,
+    "mtime": 1780539083.1839342
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/ElementInclude.py",
+    "size": 8560,
+    "mtime": 1780539083.1835017
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/cssselect.py",
+    "size": 3306,
+    "mtime": 1780539083.171958
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/usedoctest.py",
+    "size": 230,
+    "mtime": 1780539083.1717865
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/doctestcompare.py",
+    "size": 17731,
+    "mtime": 1780539083.1585248
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/builder.py",
+    "size": 8487,
+    "mtime": 1780539083.158032
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/__init__.py",
+    "size": 574,
+    "mtime": 1780539083.1570947
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/pyclasslookup.py",
+    "size": 92,
+    "mtime": 1780539083.1570241
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/sax.py",
+    "size": 9708,
+    "mtime": 1780539083.1569557
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/lxml/_elementpath.py",
+    "size": 10959,
+    "mtime": 1780539083.1550019
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/primp-1.3.1.dist-info/sboms/primp-python.cyclonedx.json",
+    "size": 285239,
+    "mtime": 1780539083.1517785
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/primp/__init__.py",
+    "size": 103,
+    "mtime": 1780539083.1378431
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/socksio/utils.py",
+    "size": 3234,
+    "mtime": 1780539083.1338441
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/socksio/socks5.py",
+    "size": 12075,
+    "mtime": 1780539083.1337745
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/socksio/socks4.py",
+    "size": 7838,
+    "mtime": 1780539083.1336834
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/socksio/exceptions.py",
+    "size": 131,
+    "mtime": 1780539083.1335635
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/socksio/compat.py",
+    "size": 3556,
+    "mtime": 1780539083.1334953
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/socksio/_types.py",
+    "size": 53,
+    "mtime": 1780539083.1334221
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/socksio/__init__.py",
+    "size": 966,
+    "mtime": 1780539083.1333547
+  },
+  {
+    "path": "upharma/.venv/lib/python3.12/site-packages/brotli.py",
+    "size": 1970,
+    "mtime": 1780539083.1317163
+  },
+  {
+    "path": "memory/areas/render-automation/lab_neon_lowerthird_20260604_0905/postflight_report.md",
+    "size": 396,
+    "mtime": 1780538854.4359565
+  },
+  {
+    "path": "memory/areas/render-automation/lab_neon_lowerthird_20260604_0905/postflight_report.md",
+    "size": 396,
+    "mtime": 1780538854.4359565
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_0905_neon_lowerthird_learning.md",
+    "size": 548,
+    "mtime": 1780538854.4127035
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_0905_neon_lowerthird_learning.md",
+    "size": 548,
+    "mtime": 1780538854.4127035
+  },
+  {
+    "path": "memory/areas/render-automation/lab_neon_lowerthird_20260604_0905/ffprobe.json",
+    "size": 239,
+    "mtime": 1780538854.4097579
+  },
+  {
+    "path": "memory/areas/render-automation/lab_neon_lowerthird_20260604_0905/ffprobe.json",
+    "size": 239,
+    "mtime": 1780538854.4097579
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260603/unknown_enrichment_audit_20260603.md",
+    "size": 3899,
+    "mtime": 1780538635.9309874
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260603/unknown_enrichment_sources_20260603.csv",
+    "size": 5554,
+    "mtime": 1780538616.7052994
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260603/unknown_enrichment_candidates_20260603.csv",
+    "size": 31412,
+    "mtime": 1780538616.703011
+  },
+  {
+    "path": "memory/areas/upharma-ops/MEMORY.md",
+    "size": 4989,
+    "mtime": 1780538468.6742163
+  },
+  {
+    "path": "memory/areas/upharma-ops/MEMORY.md",
+    "size": 4989,
+    "mtime": 1780538468.6742163
+  },
+  {
+    "path": "upharma/sqlpage-poc/README.md",
+    "size": 469,
+    "mtime": 1780538460.549838
+  },
+  {
+    "path": "upharma/sqlpage-poc/evidence_inventory_value.html",
+    "size": 1523,
+    "mtime": 1780538460.5497694
+  },
+  {
+    "path": "upharma/sqlpage-poc/index.sql",
+    "size": 439,
+    "mtime": 1780538460.5194166
+  },
+  {
+    "path": "upharma/sqlpage-poc/revenue_by_shop.sql",
+    "size": 568,
+    "mtime": 1780538460.5193624
+  },
+  {
+    "path": "upharma/sqlpage-poc/top_sku.sql",
+    "size": 645,
+    "mtime": 1780538460.5192914
+  },
+  {
+    "path": "upharma/sqlpage-poc/inventory_value.sql",
+    "size": 640,
+    "mtime": 1780538460.519215
+  },
+  {
+    "path": "upharma/logs/websearch_skill_upgrade_20260604.log",
+    "size": 148,
+    "mtime": 1780536195.4346552
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_0820_depth_blur_caption_learning.md",
+    "size": 1199,
+    "mtime": 1780536137.8969984
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_0820_depth_blur_caption_learning.md",
+    "size": 1199,
+    "mtime": 1780536137.8969984
+  },
+  {
+    "path": "memory/areas/render-automation/lab_depth_blur_caption_20260604_0820/postflight_report.md",
+    "size": 395,
+    "mtime": 1780536137.8952584
+  },
+  {
+    "path": "memory/areas/render-automation/lab_depth_blur_caption_20260604_0820/postflight_report.md",
+    "size": 395,
+    "mtime": 1780536137.8952584
+  },
+  {
+    "path": "memory/areas/dropship-affiliate/learning/2026-06-04_0817_badivi_linkedin_serp_leadgen_playbook.md",
+    "size": 2751,
+    "mtime": 1780535913.521919
+  },
+  {
+    "path": "memory/areas/dropship-affiliate/learning/2026-06-04_0817_badivi_linkedin_serp_leadgen_playbook.md",
+    "size": 2751,
+    "mtime": 1780535913.521919
+  },
+  {
+    "path": "memory/areas/upharma-ops/2026-06-04_0814_drug_db_unclassified_gap_learning.md",
+    "size": 1828,
+    "mtime": 1780535770.548473
+  },
+  {
+    "path": "memory/areas/upharma-ops/2026-06-04_0814_drug_db_unclassified_gap_learning.md",
+    "size": 1828,
+    "mtime": 1780535770.548473
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_db_enrichment_gap_20260604_0814/metrics.json",
+    "size": 257,
+    "mtime": 1780535734.9094281
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_db_enrichment_gap_20260604_0814/category_v3_summary.csv",
+    "size": 299,
+    "mtime": 1780535734.909342
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_db_enrichment_gap_20260604_0814/top200_unclassified_revenue_gap.csv",
+    "size": 15409,
+    "mtime": 1780535734.9090374
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_db_enrichment_gap_20260604_0814/top1000_rule_v3_classification.csv",
+    "size": 89472,
+    "mtime": 1780535734.9086106
+  },
+  {
+    "path": "memory/improvements-queue.md",
+    "size": 2595,
+    "mtime": 1780535060.990523
+  },
+  {
+    "path": "memory/areas/upharma-ops/outlook_daily_20260604_0801.md",
+    "size": 326,
+    "mtime": 1780534978.1728368
+  },
+  {
+    "path": "memory/areas/upharma-ops/outlook_daily_20260604_0801.md",
+    "size": 326,
+    "mtime": 1780534978.1728368
+  },
+  {
+    "path": "memory/areas/tech-ops/antigravity_bridge_evidence/antigravity_cdp_20260604_075745.md",
+    "size": 366,
+    "mtime": 1780534848.3959618
+  },
+  {
+    "path": "memory/areas/tech-ops/antigravity_bridge_evidence/antigravity_cdp_20260604_075745.md",
+    "size": 366,
+    "mtime": 1780534848.3959618
+  },
+  {
+    "path": "memory/areas/tech-ops/antigravity_bridge_evidence/antigravity_cdp_20260604_075745.json",
+    "size": 451,
+    "mtime": 1780534848.3958778
+  },
+  {
+    "path": "memory/areas/tech-ops/antigravity_bridge_evidence/antigravity_cdp_20260604_075745.json",
+    "size": 451,
+    "mtime": 1780534848.3958778
+  },
+  {
+    "path": "memory/areas/tech-ops/antigravity_bridge_evidence/antigravity_cdp_20260604_075745.progress.log",
+    "size": 1544,
+    "mtime": 1780534846.3401346
+  },
+  {
+    "path": "memory/areas/tech-ops/antigravity_bridge_evidence/antigravity_cdp_20260604_075745.progress.log",
+    "size": 1544,
+    "mtime": 1780534846.3401346
+  },
+  {
+    "path": "memory/areas/render-automation/lab_orbit_caption_20260604_0735/postflight_report.md",
+    "size": 421,
+    "mtime": 1780533430.2610056
+  },
+  {
+    "path": "memory/areas/render-automation/lab_orbit_caption_20260604_0735/postflight_report.md",
+    "size": 421,
+    "mtime": 1780533430.2610056
+  },
+  {
+    "path": "memory/areas/render-automation/lab_orbit_caption_20260604_0735/learning_note.md",
+    "size": 483,
+    "mtime": 1780533430.2593174
+  },
+  {
+    "path": "memory/areas/render-automation/lab_orbit_caption_20260604_0735/learning_note.md",
+    "size": 483,
+    "mtime": 1780533430.2593174
+  },
+  {
+    "path": "memory/areas/upharma-ops/2026-06-04_0730_drug_db_rule_v2_learning.md",
+    "size": 2448,
+    "mtime": 1780533065.4645638
+  },
+  {
+    "path": "memory/areas/upharma-ops/2026-06-04_0730_drug_db_rule_v2_learning.md",
+    "size": 2448,
+    "mtime": 1780533065.4645638
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_db_rule_improvement_20260604_0730/metrics.json",
+    "size": 806,
+    "mtime": 1780533045.0925863
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_db_rule_improvement_20260604_0730/category_v2_summary_T5_2026.csv",
+    "size": 692,
+    "mtime": 1780533045.0924857
+  },
+  {
+    "path": "upharma/4_Ket_Qua_AI/drug_db_rule_improvement_20260604_0730/top1000_rule_v2_classification_T5_2026.csv",
+    "size": 100255,
+    "mtime": 1780533045.0921893
+  },
+  {
+    "path": "memory/areas/tech-ops/antigravity_bridge_evidence/antigravity_cdp_20260604_072725.progress.log",
+    "size": 1496,
+    "mtime": 1780533023.9758198
+  },
+  {
+    "path": "memory/areas/tech-ops/antigravity_bridge_evidence/antigravity_cdp_20260604_072725.progress.log",
+    "size": 1496,
+    "mtime": 1780533023.9758198
+  },
+  {
+    "path": "upharma/logs/datasette_20260603.log",
+    "size": 18959,
+    "mtime": 1780532644.6069877
+  },
+  {
+    "path": "memory/areas/tech-ops/ANTIGRAVITY_DIFY_UNBLOCK_TASK_20260604.md",
+    "size": 2661,
+    "mtime": 1780531959.4759498
+  },
+  {
+    "path": "memory/areas/tech-ops/ANTIGRAVITY_DIFY_UNBLOCK_TASK_20260604.md",
+    "size": 2661,
+    "mtime": 1780531959.4759498
+  },
+  {
+    "path": "memory/areas/tech-ops/dify_evidence_20260604/provider_init_result_20260604_0710.md",
+    "size": 1453,
+    "mtime": 1780531714.327813
+  },
+  {
+    "path": "memory/areas/tech-ops/dify_evidence_20260604/provider_init_result_20260604_0710.md",
+    "size": 1453,
+    "mtime": 1780531714.327813
+  },
+  {
+    "path": "memory/areas/tech-ops/dify_evidence_20260604/kb_ingest_result_20260604_0710.json",
+    "size": 3159,
+    "mtime": 1780531714.12938
+  },
+  {
+    "path": "memory/areas/tech-ops/dify_evidence_20260604/kb_ingest_result_20260604_0710.json",
+    "size": 3159,
+    "mtime": 1780531714.12938
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_ass_karaoke_caption.md",
+    "size": 2027,
+    "mtime": 1780530713.8722432
+  },
+  {
+    "path": "memory/areas/render-automation/2026-06-04_ass_karaoke_caption.md",
+    "size": 2027,
+    "mtime": 1780530713.8722432
+  }
+]

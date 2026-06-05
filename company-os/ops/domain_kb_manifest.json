@@ -1,0 +1,40 @@
+{
+  "updated_at": "2026-06-05T13:18:00+07:00",
+  "policy": "Manifest-based domain KB routing; no global scan.",
+  "domains": {
+    "company_os": {
+      "apps": ["troly", "cao"],
+      "paths": [
+        "ACTIVE_RULES.md",
+        "AGENTS.md",
+        "memory/DASHBOARD.md",
+        "memory/areas/tech-ops/ACTIVE_GOALS.md",
+        "company-os/docs/DIFY_USER_GUIDE_V1.md",
+        "company-os/docs/ORG_MODEL.md",
+        "company-os/docs/AUTONOMY_POLICY.md",
+        "company-os/docs/multi_agent_operating_model_v0.md"
+      ]
+    },
+    "upharma": {
+      "apps": ["bong"],
+      "paths": [
+        "memory/areas/upharma-ops/MEMORY.md",
+        "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/full_enrich_100sku_20260605.csv",
+        "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/staging_import_plan_full_20260605.md"
+      ]
+    },
+    "dropship_affiliate": {
+      "apps": ["bun_product", "bun_godot"],
+      "paths": [
+        "memory/areas/dropship-affiliate/2026-06-03_1329_badivi_reels_ab_test_cadence_kpi_playbook.md"
+      ]
+    },
+    "render_automation": {
+      "apps": ["render"],
+      "paths": [
+        "memory/areas/render-automation/2026-06-03.md"
+      ]
+    }
+  },
+  "exclude": ["**/.git/**", "**/node_modules/**", "**/*.db", "**/*secret*", "**/*token*"]
+}

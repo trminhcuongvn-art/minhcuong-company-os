@@ -1,0 +1,9 @@
+{
+  "dify_base_url": "http://localhost/v1",
+  "completion_gate_app_id": "428e540c-9ac9-4bc5-96a0-206b78b5fe35",
+  "completion_gate_api_key": "app-CFaXTelPBGkjkMiqZga7wTRU",
+  "workflow_run_endpoint": "/workflows/run",
+  "response_mode": "blocking",
+  "dataset_api_key": "dataset-9e13697f9f5ad76ed99efd15a2043f77",
+  "dataset_id": "9124d2ce-416e-4a9b-969f-224cfae6373a"
+}

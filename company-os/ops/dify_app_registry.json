@@ -1,0 +1,62 @@
+{
+  "updated": "2026-06-05T11:15:00+07:00",
+  "base_url": "http://localhost/v1",
+  "apps": {
+    "completion_gate": {
+      "name": "Agent-to-Cao Completion Gate",
+      "app_id": "428e540c-9ac9-4bc5-96a0-206b78b5fe35",
+      "token": "app-CFaXTelPBGkjkMiqZga7wTRU",
+      "mode": "workflow",
+      "status": "published",
+      "smoke": "PASSED"
+    },
+    "knowledge_assistant": {
+      "name": "Company Knowledge Assistant",
+      "app_id": "b8c65b62-9aef-4df6-b061-61bb360852e1",
+      "token": "app-Rl91YsWAWJzUPH7tdfvgkez",
+      "mode": "chat",
+      "status": "published",
+      "smoke": "PASSED"
+    },
+    "troly_coordinator": {
+      "name": "Troly Task Coordinator",
+      "app_id": "a23a2d0c-644a-40da-9df4-98ae83bac7f5",
+      "token": "app-25b8d54dfc6beaf981db5abbdde38fd3",
+      "mode": "workflow",
+      "status": "published",
+      "smoke": "PASSED"
+    },
+    "upharma_crm_review": {
+      "name": "Upharma CRM Import Review Copilot",
+      "app_id": "b4b4a4c7-5aaf-4507-84ba-46cfe076e077",
+      "token": "app-bb71ed70592d8ca19f1e7fb3f77cb957",
+      "mode": "workflow",
+      "status": "published",
+      "smoke": "PASSED"
+    },
+    "render_brief": {
+      "name": "Render Brief to Postflight",
+      "app_id": "5e105ca5-7555-415c-a296-19fc5a4be86d",
+      "token": "app-645adbc2315c946b4370a3337d37c3b9",
+      "mode": "workflow",
+      "status": "published",
+      "smoke": "PASSED"
+    },
+    "bun_product_research": {
+      "name": "Bun Product Research Desk",
+      "app_id": "118bdabb-86f2-4f1e-824d-1ad88c7078f7",
+      "token": "app-877698eed6623753cac3540584af5cd4",
+      "mode": "workflow",
+      "status": "published",
+      "smoke": "PASSED"
+    },
+    "bun_godot_blocker": {
+      "name": "Bun Godot Blocker to Task",
+      "app_id": "1bbe63c6-b31b-4bcc-a06e-440c48813d2c",
+      "token": "app-8eab906afd13f0e4e271b0556707ada7",
+      "mode": "workflow",
+      "status": "published",
+      "smoke": "PASSED"
+    }
+  }
+}

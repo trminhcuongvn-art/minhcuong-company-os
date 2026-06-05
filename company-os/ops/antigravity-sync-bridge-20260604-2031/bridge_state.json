@@ -1,0 +1,14 @@
+{
+  "mirrored": {
+    "A2A-CAO-ANTIGRAVITY-DIFY-UNBLOCK-20260604-0712": {
+      "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_a2a_14e4b58a_20260604_071200.json",
+      "at": "2026-06-04T20:33:13+07:00",
+      "canonical_task_id": null
+    },
+    "A2A-CAO-ANTIGRAVITY-DIFY-BRIDGE-20260604-2152": {
+      "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_a2a_4130c9c0_20260604_215200.json",
+      "at": "2026-06-04T21:53:26+07:00",
+      "canonical_task_id": "antigravity_dify_bridge_import_20260604_2152"
+    }
+  }
+}

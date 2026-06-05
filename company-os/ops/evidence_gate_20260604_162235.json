@@ -1,0 +1,18 @@
+{
+  "status": "PASSED",
+  "claimed_status": "PARTIAL",
+  "evidence": [
+    {
+      "path": "/Users/minhcuong/.openclaw/workspace/company-os/ops/task_registry.jsonl",
+      "bytes": 660
+    },
+    {
+      "path": "/Users/minhcuong/.openclaw/workspace/company-os/ops/dify_ops_cli.py",
+      "bytes": 4541
+    }
+  ],
+  "missing": [],
+  "blocker": "NO_API_FALLBACK canonical; Dify API optional",
+  "next": "Continue local Company Ops no-API path; API is optional future enhancement",
+  "checked_at": "2026-06-04T16:22:35.996838+07:00"
+}

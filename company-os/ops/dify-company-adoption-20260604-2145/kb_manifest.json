@@ -1,0 +1,9 @@
+{
+  "datasets": [
+    {"name":"Company OS Executive KB","paths":["memory/DASHBOARD.md","memory/agent_task_bus.jsonl","memory/areas/tech-ops/"],"exclude":["secrets","tokens","raw browser cookies"]},
+    {"name":"Upharma Ops KB","paths":["upharma/A2A_STATUS.md","upharma/HEARTBEAT.md","upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/","memory/areas/upharma-ops/"],"exclude":["production DB credentials"]},
+    {"name":"Bun Projects KB","paths":["memory/areas/dropship-affiliate/","bun/"],"exclude":["node_modules","build cache","large binary"]},
+    {"name":"Render Automation KB","paths":["memory/areas/render-automation/","render/agent_task_bus.jsonl"],"exclude":["large mp4 files except metadata/postflight"]},
+    {"name":"Company OS Runbooks KB","paths":["company-os/ops/"],"exclude":["secret env files"]}
+  ]
+}

@@ -1,0 +1,49 @@
+app:
+  description: 'Company Knowledge Assistant — answers questions about company processes, rules, and SOPs from second-brain KB'
+  icon: 🧠
+  icon_background: '#F5E6FF'
+  mode: chat
+  name: Company Knowledge Assistant
+  use_icon_as_answer_icon: false
+dependencies: []
+kind: app
+version: 0.6.0
+model_config:
+  model:
+    provider: openai
+    name: gpt-4o-mini
+    mode: chat
+    completion_params:
+      temperature: 0.3
+  pre_prompt: |
+    You are the Company Knowledge Assistant for Minh Cuong's company.
+    Answer questions strictly based on the provided context from the second brain.
+    Rules:
+    - Only answer from provided KB context; say "không có trong KB" if not found.
+    - Be concise; max 3 sentences unless detail is requested.
+    - Language: Vietnamese unless user asks English.
+    - Never expose credentials, tokens, or internal system paths.
+  prompt_type: simple
+  user_input_form:
+    - text-input:
+        label: Câu hỏi
+        variable: query
+        required: true
+        max_length: 500
+  dataset_configs:
+    retrieval_model: semantic_search
+    top_k: 5
+    score_threshold: 0.5
+  sensitive_word_avoidance:
+    enabled: false
+  speech_to_text:
+    enabled: false
+  text_to_speech:
+    enabled: false
+    language: ''
+    voice: ''
+  suggested_questions: []
+  suggested_questions_after_answer:
+    enabled: false
+  retriever_resource:
+    enabled: true

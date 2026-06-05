@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "app_blueprints": 6,
+  "kb_datasets": 5,
+  "checks": [
+    {
+      "path": "company-os/ops/dify-company-adoption-20260604-2145/IMMEDIATE_DIFY_ADOPTION_PLAN.md",
+      "exists": true,
+      "size": 5853
+    },
+    {
+      "path": "company-os/ops/dify-company-adoption-20260604-2145/company_inventory_top500.json",
+      "exists": true,
+      "size": 70993
+    },
+    {
+      "path": "company-os/ops/dify-company-adoption-20260604-2145/kb_manifest.json",
+      "exists": true,
+      "size": 815
+    },
+    {
+      "path": "company-os/ops/dify-company-adoption-20260604-2145/IMPORT_RUNBOOK.md",
+      "exists": true,
+      "size": 788
+    },
+    {
+      "path": "company-os/ops/dify-company-adoption-20260604-2145/dify_app_blueprints/upharma_crm_import_review_copilot.yml",
+      "exists": true,
+      "size": 721
+    },
+    {
+      "path": "company-os/ops/dify-company-adoption-20260604-2145/dify_app_blueprints/executive_knowledge_search_henry.yml",
+      "exists": true,
+      "size": 714
+    },
+    {
+      "path": "company-os/ops/dify-company-adoption-20260604-2145/dify_app_blueprints/company_os_evidence_auditor.yml",
+      "exists": true,
+      "size": 714
+    },
+    {
+      "path": "company-os/ops/dify-company-adoption-20260604-2145/dify_app_blueprints/render_brief_to_postflight_assistant.yml",
+      "exists": true,
+      "size": 709
+    },
+    {
+      "path": "company-os/ops/dify-company-adoption-20260604-2145/dify_app_blueprints/bun_product_saas_game_research_desk.yml",
+      "exists": true,
+      "size": 706
+    },
+    {
+      "path": "company-os/ops/dify-company-adoption-20260604-2145/dify_app_blueprints/agent_task_router_a2a_dispatcher.yml",
+      "exists": true,
+      "size": 712
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "test_id": "p0_company_knowledge_qa",
+  "name": "Company OS Knowledge Q&A no-API",
+  "mode": "NO_API_FALLBACK",
+  "status": "PASSED",
+  "checked_at": "2026-06-04T16:22:35.465512",
+  "evidence": [
+    {
+      "path": "company-os/rollout/dify_ops_20260604/DIFY_COMPANY_OPERATING_MODEL_20260604.md",
+      "bytes": 2445
+    },
+    {
+      "path": "company-os/ops/DIFY_NO_API_FALLBACK_DECISION_20260604_1620.md",
+      "bytes": 935
+    }
+  ],
+  "missing": [],
+  "blocker": null,
+  "next": "Use in Company Ops loop as canonical no-API P0 test"
+}

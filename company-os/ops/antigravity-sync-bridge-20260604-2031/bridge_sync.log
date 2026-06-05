@@ -1,0 +1,183 @@
+{
+  "ts": "2026-06-04T20:32:49+07:00",
+  "bus": "/Users/minhcuong/.openclaw/workspace/memory/agent_task_bus.jsonl",
+  "inbox": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox",
+  "dry_run": true,
+  "fixture": true,
+  "candidates": 3,
+  "mirrored": [
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-UNBLOCK-20260604-0712",
+      "would_write": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_a2a_14e4b58a_20260604_071200.json"
+    },
+    {
+      "key": "FIXTURE-A2A-ANTIGRAVITY-DRYRUN-20260604-2031",
+      "would_write": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_a2a_32111be5_20260604_203100.json"
+    }
+  ],
+  "skipped": [
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-COMPANY-APPLY-20260604-2015",
+      "reason": "already_mirrored",
+      "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_ce823e8b_20260604_202912.json"
+    }
+  ]
+}
+{
+  "ts": "2026-06-04T20:33:13+07:00",
+  "bus": "/Users/minhcuong/.openclaw/workspace/memory/agent_task_bus.jsonl",
+  "inbox": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox",
+  "dry_run": false,
+  "fixture": false,
+  "candidates": 2,
+  "mirrored": [
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-UNBLOCK-20260604-0712",
+      "wrote": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_a2a_14e4b58a_20260604_071200.json",
+      "bytes": 1159
+    }
+  ],
+  "skipped": [
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-COMPANY-APPLY-20260604-2015",
+      "reason": "already_mirrored",
+      "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_ce823e8b_20260604_202912.json"
+    }
+  ]
+}
+{
+  "ts": "2026-06-04T20:33:13+07:00",
+  "bus": "/Users/minhcuong/.openclaw/workspace/memory/agent_task_bus.jsonl",
+  "inbox": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox",
+  "dry_run": true,
+  "fixture": false,
+  "candidates": 2,
+  "mirrored": [],
+  "skipped": [
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-UNBLOCK-20260604-0712",
+      "reason": "already_mirrored",
+      "path": {
+        "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_a2a_14e4b58a_20260604_071200.json",
+        "at": "2026-06-04T20:33:13+07:00",
+        "canonical_task_id": null
+      }
+    },
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-COMPANY-APPLY-20260604-2015",
+      "reason": "already_mirrored",
+      "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_ce823e8b_20260604_202912.json"
+    }
+  ]
+}
+{
+  "ts": "2026-06-04T20:33:49+07:00",
+  "bus": "/Users/minhcuong/.openclaw/workspace/memory/agent_task_bus.jsonl",
+  "inbox": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox",
+  "dry_run": true,
+  "fixture": true,
+  "candidates": 3,
+  "mirrored": [
+    {
+      "key": "FIXTURE-A2A-ANTIGRAVITY-DRYRUN-20260604-2031",
+      "would_write": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_a2a_32111be5_20260604_203100.json"
+    }
+  ],
+  "skipped": [
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-UNBLOCK-20260604-0712",
+      "reason": "already_mirrored",
+      "path": {
+        "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_a2a_14e4b58a_20260604_071200.json",
+        "at": "2026-06-04T20:33:13+07:00",
+        "canonical_task_id": null
+      }
+    },
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-COMPANY-APPLY-20260604-2015",
+      "reason": "already_mirrored",
+      "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_ce823e8b_20260604_202912.json"
+    }
+  ]
+}
+{
+  "ts": "2026-06-04T20:33:49+07:00",
+  "bus": "/Users/minhcuong/.openclaw/workspace/memory/agent_task_bus.jsonl",
+  "inbox": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox",
+  "dry_run": true,
+  "fixture": false,
+  "candidates": 2,
+  "mirrored": [],
+  "skipped": [
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-UNBLOCK-20260604-0712",
+      "reason": "already_mirrored",
+      "path": {
+        "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_a2a_14e4b58a_20260604_071200.json",
+        "at": "2026-06-04T20:33:13+07:00",
+        "canonical_task_id": null
+      }
+    },
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-COMPANY-APPLY-20260604-2015",
+      "reason": "already_mirrored",
+      "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_ce823e8b_20260604_202912.json"
+    }
+  ]
+}
+{
+  "ts": "2026-06-04T21:29:21+07:00",
+  "bus": "/Users/minhcuong/.openclaw/workspace/memory/agent_task_bus.jsonl",
+  "inbox": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox",
+  "dry_run": true,
+  "fixture": false,
+  "candidates": 2,
+  "mirrored": [],
+  "skipped": [
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-UNBLOCK-20260604-0712",
+      "reason": "already_mirrored",
+      "path": {
+        "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_a2a_14e4b58a_20260604_071200.json",
+        "at": "2026-06-04T20:33:13+07:00",
+        "canonical_task_id": null
+      }
+    },
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-COMPANY-APPLY-20260604-2015",
+      "reason": "already_mirrored",
+      "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_ce823e8b_20260604_202912.json"
+    }
+  ]
+}
+{
+  "ts": "2026-06-04T21:53:26+07:00",
+  "bus": "/Users/minhcuong/.openclaw/workspace/memory/agent_task_bus.jsonl",
+  "inbox": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox",
+  "dry_run": false,
+  "fixture": false,
+  "candidates": 3,
+  "mirrored": [
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-BRIDGE-20260604-2152",
+      "wrote": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_a2a_4130c9c0_20260604_215200.json",
+      "bytes": 1333
+    }
+  ],
+  "skipped": [
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-UNBLOCK-20260604-0712",
+      "reason": "already_mirrored",
+      "path": {
+        "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_a2a_14e4b58a_20260604_071200.json",
+        "at": "2026-06-04T20:33:13+07:00",
+        "canonical_task_id": null
+      }
+    },
+    {
+      "key": "A2A-CAO-ANTIGRAVITY-DIFY-COMPANY-APPLY-20260604-2015",
+      "reason": "already_mirrored",
+      "path": "/Users/minhcuong/.openclaw/workspace/antigravity_tasks/inbox/task_ce823e8b_20260604_202912.json"
+    }
+  ]
+}

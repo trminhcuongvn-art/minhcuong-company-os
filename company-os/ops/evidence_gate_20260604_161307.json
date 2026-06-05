@@ -1,0 +1,18 @@
+{
+  "status": "PASSED",
+  "claimed_status": "PARTIAL",
+  "evidence": [
+    {
+      "path": "/Users/minhcuong/.openclaw/workspace/company-os/ops/task_registry.jsonl",
+      "bytes": 660
+    },
+    {
+      "path": "/Users/minhcuong/.openclaw/workspace/company-os/ops/dify_ops_cli.py",
+      "bytes": 4541
+    }
+  ],
+  "missing": [],
+  "blocker": "Authenticated Dify API path not verified",
+  "next": "Continue local ops; wire Dify auth when approved session/token exists",
+  "checked_at": "2026-06-04T16:13:07.790449+07:00"
+}

@@ -1,0 +1,28 @@
+{
+  "updated": "2026-06-05T11:51:00+07:00",
+  "dataset_id": "9124d2ce-416e-4a9b-969f-224cfae6373a",
+  "note": "Priority files only — not all 412. Expand carefully.",
+  "include": [
+    "ACTIVE_RULES.md",
+    "AGENTS.md",
+    "memory/DASHBOARD.md",
+    "memory/improvements-queue.md",
+    "memory/areas/tech-ops/ACTIVE_GOALS.md",
+    "memory/areas/upharma-ops/MEMORY.md",
+    "memory/areas/dropship-affiliate/2026-06-03_1329_badivi_reels_ab_test_cadence_kpi_playbook.md",
+    "memory/areas/render-automation/2026-06-03.md",
+    "company-os/docs/DIFY_USER_GUIDE_V1.md",
+    "company-os/docs/ORG_MODEL.md",
+    "company-os/docs/AUTONOMY_POLICY.md",
+    "company-os/docs/multi_agent_operating_model_v0.md"
+  ],
+  "total_docs_in_kb": 25,
+  "paths": [
+    "memory/areas/upharma-ops/MEMORY.md",
+    "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/full_enrich_100sku_20260605.csv",
+    "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/staging_import_plan_full_20260605.md",
+    "memory/areas/dropship-affiliate/2026-06-03_1329_badivi_reels_ab_test_cadence_kpi_playbook.md",
+    "memory/areas/render-automation/2026-06-03.md"
+  ],
+  "updated_at": "2026-06-05T13:18:00+07:00"
+}

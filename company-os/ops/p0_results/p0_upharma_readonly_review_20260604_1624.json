@@ -1,0 +1,20 @@
+{
+  "test_id": "p0_upharma_readonly_review",
+  "name": "Upharma read-only review assistant no-API",
+  "mode": "NO_API_FALLBACK",
+  "status": "PASSED",
+  "checked_at": "2026-06-04T16:22:35.465512",
+  "evidence": [
+    {
+      "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_low_trust_reenrich_results_20260604_1600.csv",
+      "bytes": 2139
+    },
+    {
+      "path": "upharma/4_Ket_Qua_AI/drug_disease_poc_20260604/review_pack_low_trust_reenrich_audit_20260604_1600.md",
+      "bytes": 1308
+    }
+  ],
+  "missing": [],
+  "blocker": null,
+  "next": "Use in Company Ops loop as canonical no-API P0 test"
+}

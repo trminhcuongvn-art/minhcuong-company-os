@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-06-04T16:22:36.054816",
+  "base": "http://localhost",
+  "unauth": {
+    "/console/api/apps": "401",
+    "/console/api/datasets": "401",
+    "/console/api/system-features": "200"
+  },
+  "auth": null,
+  "candidates_redacted": [],
+  "status": "BLOCKED",
+  "blocker": "No approved DIFY_API_TOKEN/DIFY_CONSOLE_TOKEN env available; only redacted candidates found in local files, not used.",
+  "next": "Set approved env token or use browser-auth session export; do not store raw token in repo."
+}

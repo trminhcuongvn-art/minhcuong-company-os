@@ -1,0 +1,29 @@
+{
+  "version": "2026-06-04",
+  "workflows": [
+    {
+      "name": "Upharma CRM Import Review",
+      "mode": "no_api_then_dify_import",
+      "inputs": ["drug_db_crm_import_ready_64sku csv", "blocker list", "human review decisions"],
+      "steps": ["validate evidence paths", "summarize blockers", "produce human approval board", "emit controlled import recommendation"],
+      "outputs": ["review markdown", "approval csv", "rollback note"],
+      "guardrails": ["no production DB write without approval", "pharmacist/human review required"]
+    },
+    {
+      "name": "Agent A2A Evidence Dashboard",
+      "mode": "no_api_then_dify_import",
+      "inputs": ["memory/agent_task_bus.jsonl", "agent local buses", "workspace artifacts"],
+      "steps": ["read new tasks/results", "apply evidence gate", "mark DONE/PARTIAL/STALLED/BLOCKED", "route Antigravity tasks to inbox"],
+      "outputs": ["checkpoint report", "tech ops log", "Antigravity inbox task"],
+      "guardrails": ["no health-only report", "no duplicate Antigravity mirror"]
+    },
+    {
+      "name": "Render Intake and Postflight",
+      "mode": "no_api_then_dify_import",
+      "inputs": ["render task brief", "source media", "postflight ffprobe"],
+      "steps": ["validate brief", "route to render queue", "collect output", "verify duration/resolution/size", "publish evidence summary"],
+      "outputs": ["mp4 path", "postflight report", "learning note"],
+      "guardrails": ["no external posting unless approved", "rollback removes generated lab folder"]
+    }
+  ]
+}

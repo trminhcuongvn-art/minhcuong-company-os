@@ -1,0 +1,31 @@
+{
+  "created_at": "2026-06-04T17:23:00+07:00",
+  "mode": "NO_API_COMPANY_OPS",
+  "wip_limit": 3,
+  "items": [
+    {
+      "task": "Upharma pharmacist bundle/master sheet",
+      "owner": "bong",
+      "status": "PARTIAL",
+      "sla_next_check": "2026-06-04T17:35:00+07:00",
+      "evidence_target": ["review_pack_human_review_sheet_20260604_1703.csv", "bundle index/master sheet md"],
+      "next": "Bundle human review + re-enrich merge preview; no DB write"
+    },
+    {
+      "task": "Epoch browser runtime proof",
+      "owner": "bun/troly",
+      "status": "BLOCKED",
+      "sla_next_check": "2026-06-04T17:35:00+07:00",
+      "evidence_target": ["fixed Chrome/WebGL log", "screenshots with changing MD5", "EPOCH_FIRST_BUILD_DONE_20260604.md or BLOCKED gzip report"],
+      "next": "Fix gzip Content-Encoding or rebuild WebGL uncompressed, rerun Chrome playtest"
+    },
+    {
+      "task": "Company Ops cadence",
+      "owner": "cao",
+      "status": "PARTIAL",
+      "sla_next_check": "2026-06-04T17:35:00+07:00",
+      "evidence_target": ["loop log", "delta report", "SLA status"],
+      "next": "Stop repeating health-only status; each checkpoint must show artifact or NO_NEW_ARTIFACT"
+    }
+  ]
+}

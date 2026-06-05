@@ -1,0 +1,46 @@
+{
+  "created_at": "2026-06-04T17:30:50.398102+07:00",
+  "mode": "NO_API_COMPANY_OPS_APPLY_TRIAL",
+  "usable_deadline": "2026-06-04T18:30:00+07:00",
+  "items": [
+    {
+      "task_id": "company_ops_upharma_bundle_trial_20260604_1731",
+      "owner": "bong",
+      "status": "IN_PROGRESS",
+      "title": "Apply Company Ops to Upharma pharmacist bundle",
+      "deadline": "2026-06-04T18:15:00+07:00",
+      "evidence_target": [
+        "review_pack_human_review_sheet_20260604_1703.csv",
+        "review_pack_reenrich_merge_preview_20260604_1633.csv",
+        "pharmacist_bundle_index_20260604.md"
+      ],
+      "next": "Create bundle index or BLOCKED with exact missing evidence"
+    },
+    {
+      "task_id": "company_ops_epoch_playable_trial_20260604_1731",
+      "owner": "bun",
+      "status": "IN_PROGRESS",
+      "title": "Apply Company Ops to Epoch playable trial",
+      "deadline": "2026-06-04T18:15:00+07:00",
+      "evidence_target": [
+        "PLAYABLE_TRIAL_REPORT_20260604.md",
+        "Logs/runtime_playtest/playable_trial_*",
+        "README <=3 commands"
+      ],
+      "next": "Fix Unity ready/static frames or switch HTML5 fallback before 18:30"
+    },
+    {
+      "task_id": "company_ops_cadence_trial_20260604_1731",
+      "owner": "cao",
+      "status": "IN_PROGRESS",
+      "title": "Company Ops cadence trial",
+      "deadline": "2026-06-04T18:30:00+07:00",
+      "evidence_target": [
+        "18:15 report",
+        "18:30 usable report",
+        "loop log/control file"
+      ],
+      "next": "Run evidence gate and delta-only report"
+    }
+  ]
+}

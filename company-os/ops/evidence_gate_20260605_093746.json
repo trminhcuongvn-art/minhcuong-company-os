@@ -1,0 +1,18 @@
+{
+  "status": "PASSED",
+  "claimed_status": "PARTIAL",
+  "evidence": [
+    {
+      "path": "/Users/minhcuong/.openclaw/workspace/memory/areas/tech-ops/dify_30m_setup_20260605_0935/STATUS.md",
+      "bytes": 2047
+    },
+    {
+      "path": "/Users/minhcuong/.openclaw/workspace/memory/areas/tech-ops/dify_30m_setup_20260605_0935/smoke_test.log",
+      "bytes": 775
+    }
+  ],
+  "missing": [],
+  "blocker": "Native Dify console API import blocked by 401/no approved auth token; fallback smoke PASSED.",
+  "next": "Use local gate now; import DSL manually when session/token available.",
+  "checked_at": "2026-06-05T09:37:46.407618+07:00"
+}

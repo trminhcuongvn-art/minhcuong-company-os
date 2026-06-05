@@ -1,0 +1,10 @@
+{
+  "status": "PARTIAL",
+  "usecases": [
+    {"id":"ceo_knowledge_qa","risk":"low","mode":"read_only","acceptance":"5/5 KB rule questions answered with local citations"},
+    {"id":"a2a_task_evidence_lookup","risk":"low","mode":"read_only","acceptance":"task_id returns latest status/evidence/blocker/next"},
+    {"id":"upharma_review_assistant","risk":"medium","mode":"read_only_no_db_write","acceptance":"review checklist generated from 64-SKU review files only"}
+  ],
+  "blocker":"pending TroLy A2A alignment and authenticated app/workflow test",
+  "rollback":"rm -rf /Users/minhcuong/.openclaw/workspace/company-os/rollout"
+}

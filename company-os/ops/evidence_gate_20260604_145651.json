@@ -1,0 +1,18 @@
+{
+  "status": "PASSED",
+  "claimed_status": "DONE",
+  "evidence": [
+    {
+      "path": "/Users/minhcuong/.openclaw/workspace/company-os/rollout/dify_ops_20260604/DIFY_COMPANY_OPERATING_MODEL_20260604.md",
+      "bytes": 2445
+    },
+    {
+      "path": "/Users/minhcuong/.openclaw/workspace/company-os/ops/dify_ops_cli.py",
+      "bytes": 3600
+    }
+  ],
+  "missing": [],
+  "blocker": null,
+  "next": "Wire Dify authenticated workflow after auth path verified.",
+  "checked_at": "2026-06-04T14:56:51.956519+07:00"
+}

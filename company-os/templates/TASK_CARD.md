@@ -1,0 +1,13 @@
+# Task Card
+- Task ID:
+- Title:
+- Owner:
+- Department/BU:
+- State:
+- Risk: LOW / MEDIUM / HIGH
+- Acceptance criteria:
+- Expected artifact:
+- Test/verification:
+- Checkpoint:
+- Blocker truth:
+- Next action:

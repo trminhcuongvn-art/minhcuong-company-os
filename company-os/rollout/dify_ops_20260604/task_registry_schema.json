@@ -1,0 +1,22 @@
+{
+  "task_id": "string",
+  "source": "telegram|dify|a2a|manual",
+  "owner": "troly|bong|bun|cao|render",
+  "priority": "P0|P1|P2",
+  "status": "NOT_STARTED|IN_PROGRESS|DONE|PARTIAL|BLOCKED",
+  "risk_flags": {
+    "cost_license": false,
+    "production_data_write": false,
+    "hard_to_rollback": false,
+    "public_internal_data": false
+  },
+  "instruction": "string",
+  "required_evidence": ["path", "size_or_log", "rollback"],
+  "evidence": [],
+  "blocker": null,
+  "next": "string",
+  "created_at": "iso8601",
+  "updated_at": "iso8601",
+  "sla_ack_minutes": 10,
+  "sla_done_minutes": 45
+}

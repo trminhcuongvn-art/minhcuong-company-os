@@ -1,0 +1,20 @@
+{
+  "test_id": "p0_a2a_task_lookup",
+  "name": "A2A/task evidence lookup no-API",
+  "mode": "NO_API_FALLBACK",
+  "status": "PASSED",
+  "checked_at": "2026-06-04T16:22:35.465512",
+  "evidence": [
+    {
+      "path": "memory/agent_task_bus.jsonl",
+      "bytes": 389674
+    },
+    {
+      "path": "company-os/ops/task_registry.jsonl",
+      "bytes": 660
+    }
+  ],
+  "missing": [],
+  "blocker": null,
+  "next": "Use in Company Ops loop as canonical no-API P0 test"
+}

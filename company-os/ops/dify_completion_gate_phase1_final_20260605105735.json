@@ -1,0 +1,23 @@
+{
+  "task_id": "68939db9-cb60-482f-b2af-ce659c2d2d25",
+  "workflow_run_id": "13a9c72f-5814-49ea-b8e6-2df27ae7cbb5",
+  "data": {
+    "id": "13a9c72f-5814-49ea-b8e6-2df27ae7cbb5",
+    "workflow_id": "2933b5ee-da0a-47b9-af92-67bf0b70e440",
+    "status": "succeeded",
+    "outputs": {
+      "status": "DONE",
+      "agent_name": "troly",
+      "task_id": "troly_dify_integration_phase1_20260605",
+      "evidence": "company-os/ops/",
+      "rollback": "delete scripts created",
+      "next_action": "activate watcher daemon + cron sync"
+    },
+    "error": null,
+    "elapsed_time": 0.019124,
+    "total_tokens": 0,
+    "total_steps": 2,
+    "created_at": 1780631855,
+    "finished_at": 1780631855
+  }
+}

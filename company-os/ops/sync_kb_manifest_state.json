@@ -1,0 +1,38 @@
+{
+  "ACTIVE_RULES.md": {
+    "md5": "2b2dec06e1aaa769badc0ba371847ff6"
+  },
+  "AGENTS.md": {
+    "md5": "022d0267d38302011197e6de2b12d272"
+  },
+  "memory/DASHBOARD.md": {
+    "md5": "65edd99750ce9c75e74a7d090220cb61"
+  },
+  "memory/improvements-queue.md": {
+    "md5": "0b7d653b88b7d21a93f86dbdcc2d3e59"
+  },
+  "memory/areas/tech-ops/ACTIVE_GOALS.md": {
+    "md5": "23e4c2d757bd24e98602a2ee715ac473"
+  },
+  "memory/areas/upharma-ops/MEMORY.md": {
+    "md5": "4d00eaea3a0154d195ff21336aa28213"
+  },
+  "memory/areas/dropship-affiliate/2026-06-03_1329_badivi_reels_ab_test_cadence_kpi_playbook.md": {
+    "md5": "53fd60c1cf9b43d7ac7f67b0eefcb23a"
+  },
+  "memory/areas/render-automation/2026-06-03.md": {
+    "md5": "a5593fea6f59e4af97da994885d52127"
+  },
+  "company-os/docs/DIFY_USER_GUIDE_V1.md": {
+    "md5": "48d962b16746e93e8064d5b55a0dffe7"
+  },
+  "company-os/docs/ORG_MODEL.md": {
+    "md5": "d1bdf3953af8f08b10847accbcc848e5"
+  },
+  "company-os/docs/AUTONOMY_POLICY.md": {
+    "md5": "c1eae112fe2aaa789721926061fe1391"
+  },
+  "company-os/docs/multi_agent_operating_model_v0.md": {
+    "md5": "d044554e5bde0c54d0adab0c1385e7ae"
+  }
+}

@@ -1,0 +1,44 @@
+[2026-06-04T16:22:35+07:00] Dify Ops loop start
+{"dispatched": 0, "bus": "/Users/minhcuong/.openclaw/workspace/memory/agent_task_bus.jsonl"}
+{
+  "changed": 0,
+  "blocked": [],
+  "path": "/Users/minhcuong/.openclaw/workspace/company-os/ops/sla_scan_20260604_162235.json"
+}
+{
+  "result": {
+    "status": "PASSED",
+    "claimed_status": "PARTIAL",
+    "evidence": [
+      {
+        "path": "/Users/minhcuong/.openclaw/workspace/company-os/ops/task_registry.jsonl",
+        "bytes": 660
+      },
+      {
+        "path": "/Users/minhcuong/.openclaw/workspace/company-os/ops/dify_ops_cli.py",
+        "bytes": 4541
+      }
+    ],
+    "missing": [],
+    "blocker": "NO_API_FALLBACK canonical; Dify API optional",
+    "next": "Continue local Company Ops no-API path; API is optional future enhancement",
+    "checked_at": "2026-06-04T16:22:35.996838+07:00"
+  },
+  "path": "/Users/minhcuong/.openclaw/workspace/company-os/ops/evidence_gate_20260604_162235.json"
+}
+/Users/minhcuong/.openclaw/workspace/company-os/ops/dify_auth_probe_20260604_162236.json
+{
+  "checked_at": "2026-06-04T16:22:36.054816",
+  "base": "http://localhost",
+  "unauth": {
+    "/console/api/apps": "401",
+    "/console/api/datasets": "401",
+    "/console/api/system-features": "200"
+  },
+  "auth": null,
+  "candidates_redacted": [],
+  "status": "BLOCKED",
+  "blocker": "No approved DIFY_API_TOKEN/DIFY_CONSOLE_TOKEN env available; only redacted candidates found in local files, not used.",
+  "next": "Set approved env token or use browser-auth session export; do not store raw token in repo."
+}
+[2026-06-04T16:22:36+07:00] Dify Ops loop end

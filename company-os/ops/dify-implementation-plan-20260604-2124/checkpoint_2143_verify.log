@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "ts": "2026-06-04 21:43 ICT",
+  "checks": [
+    {
+      "path": "company-os/ops/dify-implementation-plan-20260604-2124/README.md",
+      "exists": true,
+      "size": 2321
+    },
+    {
+      "path": "company-os/ops/dify-implementation-plan-20260604-2124/workflows.json",
+      "exists": true,
+      "size": 1539
+    },
+    {
+      "path": "company-os/ops/dify-implementation-plan-20260604-2124/no_api_pilot_runbook.md",
+      "exists": true,
+      "size": 1086
+    },
+    {
+      "path": "company-os/ops/dify-implementation-plan-20260604-2124/no_api_pilot_verify.log",
+      "exists": true,
+      "size": 1727
+    },
+    {
+      "path": "company-os/ops/dify-implementation-plan-20260604-2124/native_auth_audit.md",
+      "exists": true,
+      "size": 1540
+    }
+  ],
+  "blocker": "/console/api/apps 401"
+}
