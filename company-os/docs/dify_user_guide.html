@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hướng dẫn sử dụng Dify — Tập đoàn Minh Cường</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; color: #1a1a1a; line-height: 1.6; }
+  h1 { color: #1d3557; border-bottom: 3px solid #1d3557; padding-bottom: 10px; }
+  h2 { color: #457b9d; margin-top: 36px; }
+  table { border-collapse: collapse; width: 100%; margin: 16px 0; }
+  th { background: #1d3557; color: white; padding: 10px 14px; text-align: left; }
+  td { padding: 9px 14px; border-bottom: 1px solid #e0e0e0; }
+  tr:nth-child(even) { background: #f4f8fb; }
+  pre { background: #f0f4f8; border-left: 4px solid #457b9d; padding: 14px 18px; border-radius: 4px; overflow-x: auto; font-size: 0.9em; }
+  code { background: #eef2f7; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+  .badge { display: inline-block; padding: 2px 10px; border-radius: 12px; font-size: 0.8em; font-weight: bold; }
+  .workflow { background: #d4edda; color: #155724; }
+  .chat { background: #cce5ff; color: #004085; }
+  .warn { background: #fff3cd; border-left: 4px solid #ffc107; padding: 12px 16px; border-radius: 4px; margin: 12px 0; }
+  .meta { color: #666; font-size: 0.85em; margin-bottom: 30px; }
+  ul li { margin-bottom: 4px; }
+</style>
+</head>
+<body>
+<h1>📘 Hướng dẫn sử dụng Dify — Tập đoàn Minh Cường</h1>
+<p class="meta">Cập nhật: 2026-06-05 13:58 ICT (Phase 2+3) &nbsp;|&nbsp; Author: Cáo Technical Advisor</p>
+
+<h2>1. Truy cập</h2>
+<ul>
+  <li><strong>URL:</strong> <a href="http://localhost">http://localhost</a></li>
+  <li><strong>Email:</strong> trminhcuongvn@gmail.com</li>
+  <li><strong>Password:</strong> (xem file <code>company-os/ops/dify_app_registry.json</code>)</li>
+</ul>
+
+<h2>2. Danh sách Apps</h2>
+<table>
+  <tr><th>App</th><th>Dùng khi</th><th>Mode</th></tr>
+  <tr><td>Agent-to-Cao Completion Gate</td><td>Agent báo Cáo kết quả task</td><td><span class="badge workflow">Workflow</span></td></tr>
+  <tr><td>Company Knowledge Assistant</td><td>Hỏi về quy trình/rule/SOP công ty</td><td><span class="badge chat">Chat</span></td></tr>
+  <tr><td>Troly Task Coordinator</td><td>Giao task mới cho agent</td><td><span class="badge workflow">Workflow</span></td></tr>
+  <tr><td>Upharma CRM Import Review</td><td>Duyệt thuốc/SKU vào hệ thống</td><td><span class="badge workflow">Workflow</span></td></tr>
+  <tr><td>Render Brief to Postflight</td><td>Lên kế hoạch render video</td><td><span class="badge workflow">Workflow</span></td></tr>
+  <tr><td>Bun Product Research Desk</td><td>Nghiên cứu sản phẩm dropshipping</td><td><span class="badge workflow">Workflow</span></td></tr>
+  <tr><td>Bun Godot Blocker to Task</td><td>Chuyển blocker game thành task</td><td><span class="badge workflow">Workflow</span></td></tr>
+</table>
+
+<h2>3. Dùng qua API</h2>
+<pre>import urllib.request, json
+
+def call_dify_workflow(token, inputs, user="henry"):
+    url = "http://localhost/v1/workflows/run"
+    payload = {"inputs": inputs, "response_mode": "blocking", "user": user}
+    req = urllib.request.Request(url,
+        data=json.dumps(payload).encode(),
+        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json"},
+        method="POST")
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.loads(r.read().decode())
+
+# Ví dụ: Giao task cho Troly
+result = call_dify_workflow(
+    token="app-25b8...",
+    inputs={"task_name": "Kiểm tra báo cáo", "owner_agent": "bong", "priority": "P1"}
+)
+print(result["data"]["status"])  # succeeded</pre>
+
+<h2>4. Dùng qua UI</h2>
+<ol>
+  <li>Vào <a href="http://localhost">http://localhost</a> → Studio</li>
+  <li>Chọn app → Click <strong>Run</strong> (workflow) hoặc chat</li>
+  <li>Điền inputs → Submit</li>
+  <li>Xem kết quả trong <strong>Logs</strong> (góc trái)</li>
+</ol>
+
+<h2>5. Agent Reporting — Bắt buộc</h2>
+<div class="warn">Tất cả agent phải dùng wrapper sau khi xong task. Quy trình cũ bị Cáo mark INVALID.</div>
+<pre>bash /Users/minhcuong/.openclaw/workspace/company-os/ops/agent_dispatch_wrapper.sh \
+  &lt;agent&gt; &lt;task_id&gt; &lt;DONE|PARTIAL|BLOCKED&gt; "&lt;evidence_path&gt;" "&lt;next_step&gt;"
+
+# Ví dụ:
+bash company-os/ops/agent_dispatch_wrapper.sh bong bong_sku_20260605 DONE \
+  "upharma/4_Ket_Qua_AI/full_enrich_100sku_20260605.csv" "chờ staging review"</pre>
+
+<h2>6. Domain KB Routing</h2>
+<table>
+  <tr><th>Agent</th><th>KB domain</th></tr>
+  <tr><td>Cáo / Trợ Lý</td><td>Company OS KB (ACTIVE_RULES, DECISIONS, ORG_MODEL)</td></tr>
+  <tr><td>Bông</td><td>Upharma KB (MEMORY, full_enrich_100sku, staging plan)</td></tr>
+  <tr><td>Bún</td><td>Dropship/Affiliate KB (playbook, product research)</td></tr>
+  <tr><td>Render</td><td>Render KB (render notes, postflight)</td></tr>
+</table>
+<p>Config: <code>company-os/ops/domain_kb_manifest.json</code></p>
+
+<h2>7. Monitoring / Healthcheck</h2>
+<pre>python3 company-os/ops/dify_phase3_healthcheck.py
+# Expected: status PASS, checks 11, failed 0</pre>
+<p>Runbook đầy đủ: <code>company-os/docs/DIFY_PHASE3_RUNBOOK.md</code></p>
+<p>KB sync: tự động mỗi 4 giờ qua cron job <code>dify-kb-sync-4h</code></p>
+
+<h2>8. Rollback</h2>
+<ul>
+  <li>Xoá app: Dify UI → Settings → Delete</li>
+  <li>Xoá KB doc: Dify UI → Knowledge → Dataset → Documents</li>
+  <li>Revoke token: Dify UI → App → API Access → Revoke</li>
+  <li>Disable cron: <code>cron tool → update job dify-kb-sync-4h → enabled: false</code></li>
+</ul>
+</body>
+</html>
