@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T11:15:00+07:00",
+  "updated": "2026-06-05T16:47:00+07:00",
   "base_url": "http://localhost/v1",
   "apps": {
     "completion_gate": {
@@ -57,6 +57,16 @@
       "mode": "workflow",
       "status": "published",
       "smoke": "PASSED"
+    },
+    "a2a_escalation_router": {
+      "name": "A2A Escalation Router",
+      "app_id": "TBD_import_pending",
+      "token": "TBD_import_pending",
+      "mode": "workflow",
+      "status": "dsl_ready_not_imported",
+      "dsl_path": "company-os/ops/dify_workflows/a2a_escalation_router.yml",
+      "smoke": "PENDING",
+      "note": "DSL committed 387675c. Cần import vào Dify console để lấy app_id + token."
     }
   }
 }
