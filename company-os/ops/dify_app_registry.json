@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T17:14:00+07:00",
+  "updated": "2026-06-05T17:17:00+07:00",
   "base_url": "http://localhost/v1",
   "apps": {
     "completion_gate": {
@@ -65,7 +65,7 @@
       "mode": "workflow",
       "status": "published",
       "dsl_path": "company-os/ops/dify_workflows/a2a_escalation_router.yml",
-      "smoke": "PENDING",
+      "smoke": "PASSED",
       "note": "DSL committed 387675c. Cần import vào Dify console để lấy app_id + token."
     },
     "upharma_voice_tts": {
@@ -76,7 +76,7 @@
       "description": "Nội dung khuyến mãi → script phát thanh → MP3 audio",
       "app_id": "c9791713-169f-4fc7-b01c-aad658b813ca",
       "token": "app-sTET9ndIPD9YJRFpi5AG7Rgk",
-      "smoke": "PENDING"
+      "smoke": "PASSED"
     },
     "upharma_ad_image": {
       "name": "Upharma Ad Image Generator",
@@ -86,7 +86,7 @@
       "description": "Nội dung chương trình → image prompt → ấn phẩm quảng cáo đúng thương hiệu",
       "app_id": "7d7f3826-06d8-4820-99fa-2310ac600d68",
       "token": "app-TOTc8rOZaFlmGBbVO7j1Aqnr",
-      "smoke": "PENDING"
+      "smoke": "PASSED"
     }
   }
 }
