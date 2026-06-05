@@ -1,0 +1,74 @@
+# Upharma Ad Image Generator — Dify Workflow DSL
+# Created: 2026-06-05
+# Purpose: Nhận nội dung chương trình → sinh prompt → tạo ấn phẩm quảng cáo theo thương hiệu Upharma
+
+app:
+  name: "Upharma Ad Image Generator"
+  mode: workflow
+  description: "Nhập nội dung chương trình/sản phẩm → AI tạo ấn phẩm quảng cáo đúng thương hiệu Upharma"
+
+workflow:
+  graph:
+    nodes:
+      - id: start
+        type: start
+        title: "Start"
+        outputs:
+          promo_content:
+            type: string
+            label: "Nội dung chương trình / sản phẩm cần quảng cáo"
+          format_type:
+            type: string
+            label: "Loại ấn phẩm: poster / banner_web / story / flyer"
+          brand_color:
+            type: string
+            label: "Màu thương hiệu (mặc định: xanh dương #0057A8)"
+
+      - id: build_prompt
+        type: llm
+        title: "Tạo image prompt theo thương hiệu Upharma"
+        model:
+          provider: openai
+          name: gpt-4o-mini
+          mode: chat
+          completion_params:
+            temperature: 0.3
+            max_tokens: 400
+        prompt_template:
+          - role: system
+            text: |
+              Bạn là chuyên gia thiết kế ấn phẩm cho chuỗi nhà thuốc Upharma (19 nhà thuốc, Việt Nam).
+              Nhận dạng thương hiệu Upharma:
+              - Màu chủ đạo: xanh dương đậm (#0057A8) + trắng
+              - Font: sans-serif, hiện đại, dễ đọc
+              - Phong cách: chuyên nghiệp y tế, tin cậy, thân thiện
+              - Logo: chữ "Upharma" màu trắng nền xanh
+              
+              Tạo image generation prompt (tiếng Anh) cho DALL-E / Stable Diffusion để tạo ấn phẩm {{#start.format_type#}}.
+              Prompt phải bao gồm: layout, màu sắc thương hiệu, nội dung text key, phong cách thiết kế.
+              Chỉ trả về prompt, không giải thích.
+          - role: user
+            text: |
+              Nội dung: {{#start.promo_content#}}
+              Loại ấn phẩm: {{#start.format_type#}}
+              Màu thương hiệu: {{#start.brand_color#}}
+
+      - id: generate_image
+        type: tool
+        title: "Tạo ảnh quảng cáo"
+        tool_name: "dall-e"
+        tool_label: "DALL-E Image Generation"
+        inputs:
+          prompt: "{{#build_prompt.text#}}"
+          size: "1024x1024"
+          quality: "standard"
+          n: 1
+
+      - id: output
+        type: end
+        title: "Output"
+        inputs:
+          image_prompt: "{{#build_prompt.text#}}"
+          image_url: "{{#generate_image.image_url#}}"
+          format: "{{#start.format_type#}}"
+          content: "{{#start.promo_content#}}"

@@ -1,0 +1,71 @@
+# Upharma Voice TTS — Dify Workflow DSL
+# Created: 2026-06-05
+# Purpose: Nhận nội dung khuyến mãi → sinh script → tạo file TTS audio phát loa nhà thuốc
+
+app:
+  name: "Upharma Voice TTS"
+  mode: workflow
+  description: "Nhập nội dung chương trình khuyến mãi → AI viết script phát thanh → tạo file âm thanh MP3"
+
+workflow:
+  graph:
+    nodes:
+      - id: start
+        type: start
+        title: "Start"
+        outputs:
+          promo_content:
+            type: string
+            label: "Nội dung chương trình khuyến mãi"
+          pharmacy_name:
+            type: string
+            label: "Tên nhà thuốc (để xưng danh)"
+          duration_seconds:
+            type: number
+            label: "Thời lượng audio (giây, mặc định 30)"
+
+      - id: write_script
+        type: llm
+        title: "Viết script phát thanh"
+        model:
+          provider: openai
+          name: gpt-4o-mini
+          mode: chat
+          completion_params:
+            temperature: 0.4
+            max_tokens: 512
+        prompt_template:
+          - role: system
+            text: |
+              Bạn là chuyên gia viết script phát thanh cho nhà thuốc Việt Nam.
+              Quy tắc:
+              - Giọng văn trang trọng, thân thiện, rõ ràng
+              - Bắt đầu bằng "Kính chào quý khách đến với [tên nhà thuốc]"
+              - Nêu rõ tên chương trình, sản phẩm, mức giảm giá, thời hạn
+              - Kết thúc bằng lời mời mua hàng
+              - Độ dài phù hợp với {{#start.duration_seconds#}} giây khi đọc (khoảng 2.5 từ/giây)
+              - Không dùng ký tự đặc biệt, emoji
+          - role: user
+            text: |
+              Nhà thuốc: {{#start.pharmacy_name#}}
+              Nội dung khuyến mãi: {{#start.promo_content#}}
+              Thời lượng: {{#start.duration_seconds#}} giây
+
+      - id: tts_generate
+        type: tool
+        title: "Tạo file audio TTS"
+        tool_name: "tts"
+        tool_label: "Text to Speech"
+        inputs:
+          text: "{{#write_script.text#}}"
+          voice: "vi-VN-HoaiMyNeural"
+          format: "mp3"
+          speed: 1.0
+
+      - id: output
+        type: end
+        title: "Output"
+        inputs:
+          script: "{{#write_script.text#}}"
+          audio_file: "{{#tts_generate.audio_url#}}"
+          pharmacy: "{{#start.pharmacy_name#}}"

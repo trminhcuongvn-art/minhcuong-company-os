@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-05T16:47:00+07:00",
+  "updated": "2026-06-05T16:49:00+07:00",
   "base_url": "http://localhost/v1",
   "apps": {
     "completion_gate": {
@@ -67,6 +67,20 @@
       "dsl_path": "company-os/ops/dify_workflows/a2a_escalation_router.yml",
       "smoke": "PENDING",
       "note": "DSL committed 387675c. Cần import vào Dify console để lấy app_id + token."
+    },
+    "upharma_voice_tts": {
+      "name": "Upharma Voice TTS",
+      "mode": "workflow",
+      "status": "dsl_ready_not_imported",
+      "dsl_path": "company-os/ops/dify_workflows/upharma_voice_tts.yml",
+      "description": "Nội dung khuyến mãi → script phát thanh → MP3 audio"
+    },
+    "upharma_ad_image": {
+      "name": "Upharma Ad Image Generator",
+      "mode": "workflow",
+      "status": "dsl_ready_not_imported",
+      "dsl_path": "company-os/ops/dify_workflows/upharma_ad_image_generator.yml",
+      "description": "Nội dung chương trình → image prompt → ấn phẩm quảng cáo đúng thương hiệu"
     }
   }
 }
